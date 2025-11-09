@@ -396,3 +396,424 @@ Recall: 0.5196
 Testing on Subject: S9
 ============================================================
 Train: 6438 samples, Test: 456 samples
+Epoch [1/25] Loss: 0.4612 | Acc: 76.45%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1837 | Acc: 93.35%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0878 | Acc: 97.19%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0637 | Acc: 97.84%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0574 | Acc: 97.93%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0419 | Acc: 98.62%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0348 | Acc: 98.76%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0311 | Acc: 98.96%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0234 | Acc: 99.27%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0196 | Acc: 99.30%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0171 | Acc: 99.46%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0129 | Acc: 99.66%
+Current learning rate: 0.000100
+Epoch [13/25] Loss: 0.0171 | Acc: 99.41%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [14/25] Loss: 0.0109 | Acc: 99.64%
+Current learning rate: 0.000100
+Epoch [15/25] Loss: 0.0170 | Acc: 99.32%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [16/25] Loss: 0.0135 | Acc: 99.61%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [17/25] Loss: 0.0113 | Acc: 99.61%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 17 epochs!
+Subject S9 Results:
+Accuracy: 8377.19%
+F1 Score: 0.8309
+Precision: 0.8412
+Recall: 0.8377
+
+============================================================
+Testing on Subject: S10
+============================================================
+Train: 6418 samples, Test: 476 samples
+Epoch [1/25] Loss: 0.4239 | Acc: 79.29%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1462 | Acc: 94.72%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0831 | Acc: 97.06%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0706 | Acc: 97.73%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0621 | Acc: 97.48%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0488 | Acc: 98.36%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0413 | Acc: 98.49%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0357 | Acc: 98.78%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0304 | Acc: 99.05%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0239 | Acc: 99.17%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0193 | Acc: 99.42%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0186 | Acc: 99.38%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [13/25] Loss: 0.0143 | Acc: 99.56%
+Current learning rate: 0.000100
+Epoch [14/25] Loss: 0.0121 | Acc: 99.67%
+Current learning rate: 0.000100
+Epoch [15/25] Loss: 0.0123 | Acc: 99.56%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [16/25] Loss: 0.0080 | Acc: 99.74%
+Current learning rate: 0.000100
+Epoch [17/25] Loss: 0.0073 | Acc: 99.78%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [18/25] Loss: 0.0182 | Acc: 99.47%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [19/25] Loss: 0.0051 | Acc: 99.88%
+Current learning rate: 0.000100
+Epoch [20/25] Loss: 0.0079 | Acc: 99.78%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [21/25] Loss: 0.0057 | Acc: 99.84%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [22/25] Loss: 0.0047 | Acc: 99.86%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 22 epochs!
+Subject S10 Results:
+Accuracy: 6827.73%
+F1 Score: 0.6016
+Precision: 0.7902
+Recall: 0.6828
+
+============================================================
+Testing on Subject: S11
+============================================================
+Train: 6429 samples, Test: 465 samples
+Epoch [1/25] Loss: 0.3975 | Acc: 80.51%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1435 | Acc: 94.82%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0661 | Acc: 97.78%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0494 | Acc: 98.35%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0346 | Acc: 98.83%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0239 | Acc: 99.28%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0202 | Acc: 99.32%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0271 | Acc: 98.97%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [9/25] Loss: 0.0126 | Acc: 99.61%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0124 | Acc: 99.60%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [11/25] Loss: 0.0157 | Acc: 99.47%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [12/25] Loss: 0.0150 | Acc: 99.50%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 12 epochs!
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Subject S11 Results:
+Accuracy: 3655.91%
+F1 Score: 0.1957
+Precision: 0.1337
+Recall: 0.3656
+
+============================================================
+Testing on Subject: S13
+============================================================
+Train: 6433 samples, Test: 461 samples
+Epoch [1/25] Loss: 0.4451 | Acc: 77.62%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1580 | Acc: 94.25%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0876 | Acc: 96.92%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0596 | Acc: 97.93%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0384 | Acc: 98.88%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0364 | Acc: 98.74%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0260 | Acc: 99.19%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0215 | Acc: 99.30%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0203 | Acc: 99.33%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0173 | Acc: 99.46%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0117 | Acc: 99.72%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0152 | Acc: 99.58%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [13/25] Loss: 0.0119 | Acc: 99.60%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [14/25] Loss: 0.0135 | Acc: 99.55%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 14 epochs!
+Subject S13 Results:
+Accuracy: 7201.74%
+F1 Score: 0.6908
+Precision: 0.7208
+Recall: 0.7202
+
+============================================================
+Testing on Subject: S14
+============================================================
+Train: 6430 samples, Test: 464 samples
+Epoch [1/25] Loss: 0.4139 | Acc: 79.97%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1960 | Acc: 92.04%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.1152 | Acc: 95.88%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0779 | Acc: 97.25%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0611 | Acc: 97.88%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0401 | Acc: 98.65%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0377 | Acc: 98.76%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0266 | Acc: 99.13%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0243 | Acc: 99.18%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0233 | Acc: 99.32%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0206 | Acc: 99.36%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0147 | Acc: 99.52%
+Current learning rate: 0.000100
+Epoch [13/25] Loss: 0.0208 | Acc: 99.36%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [14/25] Loss: 0.0213 | Acc: 99.19%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [15/25] Loss: 0.0104 | Acc: 99.64%
+Current learning rate: 0.000100
+Epoch [16/25] Loss: 0.0140 | Acc: 99.47%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [17/25] Loss: 0.0160 | Acc: 99.41%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [18/25] Loss: 0.0101 | Acc: 99.75%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 18 epochs!
+Subject S14 Results:
+Accuracy: 9978.45%
+F1 Score: 0.9978
+Precision: 0.9979
+Recall: 0.9978
+
+============================================================
+Testing on Subject: S15
+============================================================
+Train: 6430 samples, Test: 464 samples
+Epoch [1/25] Loss: 0.4479 | Acc: 78.52%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1713 | Acc: 93.89%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0877 | Acc: 97.20%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0521 | Acc: 98.32%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0414 | Acc: 98.62%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0340 | Acc: 99.02%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0286 | Acc: 99.18%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0240 | Acc: 99.28%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0202 | Acc: 99.41%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0133 | Acc: 99.63%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0146 | Acc: 99.55%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [12/25] Loss: 0.0152 | Acc: 99.56%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [13/25] Loss: 0.0099 | Acc: 99.74%
+Current learning rate: 0.000100
+Epoch [14/25] Loss: 0.0162 | Acc: 99.47%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [15/25] Loss: 0.0082 | Acc: 99.80%
+Current learning rate: 0.000100
+Epoch [16/25] Loss: 0.0136 | Acc: 99.53%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [17/25] Loss: 0.0065 | Acc: 99.80%
+Current learning rate: 0.000100
+Epoch [18/25] Loss: 0.0097 | Acc: 99.69%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [19/25] Loss: 0.0068 | Acc: 99.81%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [20/25] Loss: 0.0051 | Acc: 99.83%
+Current learning rate: 0.000100
+Epoch [21/25] Loss: 0.0039 | Acc: 99.88%
+Current learning rate: 0.000100
+Epoch [22/25] Loss: 0.0065 | Acc: 99.75%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [23/25] Loss: 0.0075 | Acc: 99.77%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [24/25] Loss: 0.0126 | Acc: 99.64%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 24 epochs!
+Subject S15 Results:
+Accuracy: 9719.83%
+F1 Score: 0.9717
+Precision: 0.9732
+Recall: 0.9720
+
+============================================================
+Testing on Subject: S16
+============================================================
+Train: 6431 samples, Test: 463 samples
+Epoch [1/25] Loss: 0.4379 | Acc: 78.09%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1710 | Acc: 93.41%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0909 | Acc: 96.75%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0622 | Acc: 97.79%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0462 | Acc: 98.51%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0366 | Acc: 98.71%
+Current learning rate: 0.000100
+Epoch [7/25] Loss: 0.0324 | Acc: 98.85%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0237 | Acc: 99.21%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0215 | Acc: 99.28%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0185 | Acc: 99.42%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0163 | Acc: 99.49%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0141 | Acc: 99.58%
+Current learning rate: 0.000100
+Epoch [13/25] Loss: 0.0172 | Acc: 99.49%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [14/25] Loss: 0.0173 | Acc: 99.47%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [15/25] Loss: 0.0140 | Acc: 99.55%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 15 epochs!
+Subject S16 Results:
+Accuracy: 9805.62%
+F1 Score: 0.9804
+Precision: 0.9811
+Recall: 0.9806
+
+============================================================
+Testing on Subject: S17
+============================================================
+Train: 6418 samples, Test: 476 samples
+Epoch [1/25] Loss: 0.4811 | Acc: 74.31%
+Current learning rate: 0.000100
+Epoch [2/25] Loss: 0.1882 | Acc: 93.22%
+Current learning rate: 0.000100
+Epoch [3/25] Loss: 0.0893 | Acc: 96.95%
+Current learning rate: 0.000100
+Epoch [4/25] Loss: 0.0616 | Acc: 97.97%
+Current learning rate: 0.000100
+Epoch [5/25] Loss: 0.0494 | Acc: 98.29%
+Current learning rate: 0.000100
+Epoch [6/25] Loss: 0.0485 | Acc: 98.36%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [7/25] Loss: 0.0352 | Acc: 98.96%
+Current learning rate: 0.000100
+Epoch [8/25] Loss: 0.0337 | Acc: 98.83%
+Current learning rate: 0.000100
+Epoch [9/25] Loss: 0.0266 | Acc: 99.16%
+Current learning rate: 0.000100
+Epoch [10/25] Loss: 0.0242 | Acc: 99.25%
+Current learning rate: 0.000100
+Epoch [11/25] Loss: 0.0175 | Acc: 99.50%
+Current learning rate: 0.000100
+Epoch [12/25] Loss: 0.0203 | Acc: 99.35%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [13/25] Loss: 0.0214 | Acc: 99.21%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [14/25] Loss: 0.0096 | Acc: 99.77%
+Current learning rate: 0.000100
+Epoch [15/25] Loss: 0.0164 | Acc: 99.44%
+Current learning rate: 0.000100
+Early stopping counter: 1/3
+Epoch [16/25] Loss: 0.0154 | Acc: 99.53%
+Current learning rate: 0.000100
+Early stopping counter: 2/3
+Epoch [17/25] Loss: 0.0124 | Acc: 99.63%
+Current learning rate: 0.000100
+Early stopping counter: 3/3
+
+Early stopping triggered after 17 epochs!
+Subject S17 Results:
+Accuracy: 10000.00%
+F1 Score: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+
+Mean Metrics Across All Subjects:
+============================================================
+Traceback (most recent call last):
+  File "/Users/kumar/Desktop/Projects/transformer_timeseries/main.py", line 182, in <module>
+  File "/Users/kumar/Desktop/Projects/transformer_timeseries/main.py", line 157, in main
+    print("\nMean Metrics Across All Subjects:")
+                   ^^^^^^^^^^^^^
+KeyError: 'accuracy'

@@ -2,54 +2,39 @@ import os
 import torch
 import numpy as np
 import pickle
+from torch.utils.data import DataLoader, TensorDataset
+from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef
+
+from config import Config
 from load_data import WESADDataset
 from transformer_model import TabTransformer
 from train_test_loop import train_model, evaluate_model
-from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef
+
 
 def main():
     # Device configuration
     device = torch.device("mps" if torch.backends.mps.is_available() else
                          "cuda" if torch.cuda.is_available() else
-                         "cpu")
+                         "cpu")                   
     print(f"Using device: {device}")
 
-    # Hyperparameters
-    config = {
-        'lr_rate': 0.0001,
-        'n_epochs': 25,
-        'early_stopping_patience': 3,
-        'early_stopping_min_delta': 0.001
-    }
-
+    
     # Load dataset
-
-    # DATASET_PATH = '~/Library/Mobile Documents/com~apple~CloudDocs/Phoenix/OVGU/HiWi2/Tasks/10_WESAD/WESAD.nosync'
-    # ds = WESADDataset(DATASET_PATH)
-
+    # ds = WESADDataset(Config.DATASET_PATH)
     ds = WESADDataset(None)
-    pickle_path = os.path.join('/Users/kumar/Desktop/Projects/transformer_timeseries', 'wesad_raw.pkl')
-    with open(pickle_path, 'rb') as f:
+    with open(Config.PICKLE_PATH, 'rb') as f:
         saved_data = pickle.load(f)
         ds.data = saved_data['data']
         ds.labels = saved_data['labels']
 
-    # Subject bins for LOOCV
-    subject_counts = {
-        'S2': 440, 'S3': 445, 'S4': 449, 'S5': 460, 'S6': 458, 'S7': 457,
-        'S8': 460, 'S9': 456, 'S10': 476, 'S11': 465, 'S13': 461, 'S14': 464,
-        'S15': 464, 'S16': 463, 'S17': 476
-    }
-
     # Calculate subject indices
     subject_indices = {}
     start = 0
-    for subject, count in subject_counts.items():
+    for subject, count in Config.SUBJECT_COUNTS.items():
         end = start + count
         subject_indices[subject] = [start, end]
         start = end
-    print(subject_counts, '\n', subject_indices)
+    print(Config.SUBJECT_COUNTS, '\n')
 
     # LOOCV training and evaluation
     loocv_results = []
@@ -86,25 +71,30 @@ def main():
         test_ds = TensorDataset(torch.FloatTensor(test_data_normalized), 
                             torch.LongTensor(ds.labels[test_indices]))
         
-        train_loader = DataLoader(train_ds, batch_size=32, shuffle=True)
-        test_loader = DataLoader(test_ds, batch_size=32, shuffle=False)
+        train_loader = DataLoader(train_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
+        test_loader = DataLoader(test_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         
         print(f"Train: {len(train_ds)} samples, Test: {len(test_ds)} samples")
         
         # Initialize model
         model = TabTransformer(
-            num_features=6, 
-            num_classes=2, 
-            dim_embedding=64, 
-            num_heads=4, 
-            num_layers=4,
-            dropout=0.1
+            num_features=Config.NUM_FEATURES,
+            num_classes=Config.NUM_CLASSES,
+            dim_embedding=Config.EMBEDDING_DIM,
+            num_heads=Config.NUM_HEADS,
+            num_layers=Config.NUM_LAYERS,
+            dropout=Config.DROPOUT
         ).to(device)
         
         # Training setup
         criterion = torch.nn.CrossEntropyLoss().to(device)
-        optimizer = torch.optim.Adam(model.parameters(), lr=config['lr_rate'])
-        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor = 0.5, patience=3)
+        optimizer = torch.optim.Adam(model.parameters(), lr=Config.LEARNING_RATE)
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+            optimizer, 
+            mode='min', 
+            factor=Config.SCHEDULER_FACTOR, 
+            patience=Config.SCHEDULER_PATIENCE
+        )
         
         # Train model
         history, best_model_state = train_model(
@@ -113,10 +103,10 @@ def main():
             criterion=criterion,
             optimizer=optimizer,
             scheduler=scheduler,
-            n_epochs=config['n_epochs'],
+            n_epochs=Config.NUM_EPOCHS,
             device=device,
-            patience=config['early_stopping_patience'],
-            min_delta=config['early_stopping_min_delta']
+            patience=Config.EARLY_STOPPING_PATIENCE,
+            min_delta=Config.EARLY_STOPPING_MIN_DELTA
         )
         
         # Evaluate best model
@@ -129,7 +119,7 @@ def main():
 
         test_preds = np.array(test_preds)
         test_labels = np.array(test_labels)
-        
+
         metrics = {
             'accuracy': test_acc,
             'f1_score': f1_score(test_labels, test_preds, average='weighted'),
@@ -147,6 +137,8 @@ def main():
         })
         
         print(f"Subject {test_subject} Results:")
+        print(f"Test Labels: {test_labels}")
+        print(f"Test Pred: {test_preds}")
         print(f"Accuracy: {metrics['accuracy']:.2f}%")
         print(f"F1 Score: {metrics['f1_score']:.4f}")
         print(f"Precision: {metrics['precision']:.4f}")
@@ -154,31 +146,46 @@ def main():
         print(f"MCC: {metrics['mcc']:.4f}")
 
     # Print final summary
+    print("\nConfiguration Parameters:")
+    print("=" * 60)
+    print("Training Configuration:")
+    print(f"  Learning Rate: {Config.LEARNING_RATE}")
+    print(f"  Number of Epochs: {Config.NUM_EPOCHS}")
+    print(f"  Batch Size: {Config.BATCH_SIZE}")
+    print(f"  Early Stopping Patience: {Config.EARLY_STOPPING_PATIENCE}")
+    print(f"  Early Stopping Min Delta: {Config.EARLY_STOPPING_MIN_DELTA}")
+    
+    print("\nModel Configuration:")
+    print(f"  Number of Features: {Config.NUM_FEATURES}")
+    print(f"  Number of Classes: {Config.NUM_CLASSES}")
+    print(f"  Embedding Dimension: {Config.EMBEDDING_DIM}")
+    print(f"  Number of Heads: {Config.NUM_HEADS}")
+    print(f"  Number of Layers: {Config.NUM_LAYERS}")
+    print(f"  Dropout Rate: {Config.DROPOUT}")
+    
+    print("\nOptimizer Configuration:")
+    print(f"  Scheduler Factor: {Config.SCHEDULER_FACTOR}")
+    print(f"  Scheduler Patience: {Config.SCHEDULER_PATIENCE}")
+    print("=" * 60)
+
     print("\nMean Metrics Across All Subjects:")
     print("=" * 60)
     for r in loocv_results:
         print(f"{r['subject']}:"
-            f"Acc={r['accuracy']:.2f}, F1={r['f1_score']:.4f}, "
-            f"Prec={r['precision']:.4f}, Rec={r['recall']:.4f}, "
-            f"MCC={r['mcc']:.4f}")
-        
+              f"Acc={r['metrics']['accuracy']:.2f}, "
+              f"F1={r['metrics']['f1_score']:.4f}, "
+              f"Prec={r['metrics']['precision']:.4f}, "
+              f"Rec={r['metrics']['recall']:.4f}, "
+              f"MCC={r['metrics']['mcc']:.4f}")
+    
     # Calculate and print mean metrics
     print(f"\nMean Metrics Across All Subjects:")
     print("=" * 60)
-    print(f"Accuracy:  {np.mean([r['accuracy'] for r in loocv_results]):.2f}%")
-    print(f"F1 Score:  {np.mean([r['f1_score'] for r in loocv_results]):.4f}")
-    print(f"Precision: {np.mean([r['precision'] for r in loocv_results]):.4f}")
-    print(f"Recall:    {np.mean([r['recall'] for r in loocv_results]):.4f}")
-    print(f"MCC:       {np.mean([r['mcc'] for r in loocv_results]):.4f}")
-        
-    # Save results
-    results_path = os.path.join(os.path.dirname(__file__), 'results.pkl')
-    with open(results_path, 'wb') as f:
-        pickle.dump({
-            'config': config,
-            'results': loocv_results
-        }, f)
-    print(f"\nResults saved to: {results_path}")
+    print(f"Accuracy:  {np.mean([r['metrics']['accuracy'] for r in loocv_results]):.2f}%")
+    print(f"F1 Score:  {np.mean([r['metrics']['f1_score'] for r in loocv_results]):.4f}")
+    print(f"Precision: {np.mean([r['metrics']['precision'] for r in loocv_results]):.4f}")
+    print(f"Recall:    {np.mean([r['metrics']['recall'] for r in loocv_results]):.4f}")
+    print(f"MCC:       {np.mean([r['metrics']['mcc'] for r in loocv_results]):.4f}")
 
     return loocv_results
 

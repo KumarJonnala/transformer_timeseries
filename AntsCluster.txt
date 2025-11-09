@@ -1,0 +1,18 @@
+https://code.ovgu.de/fin-all/cluster
+
+https://ood.cs.ovgu.de/pun/sys/dashboard/
+
+kumar@Kumars-MacBook-Air ~ % ssh bumu60du@ants.cs.ovgu.de
+
+
+# slurm
+
+sbatch 	slurm_tabtransformer.sh # submit job
+
+squeue # status
+
+squeue -u $USER
+
+sattach <jobid>.0 # live output
+
+scancel <jobid> # cancel job
