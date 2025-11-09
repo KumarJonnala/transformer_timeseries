@@ -13,8 +13,13 @@ class WESADDataset(Dataset):
         self.data_path = data_path
         self.window_size = window_size
         self.overlap = overlap
-        self.signal_names = ['ACC','Resp','EDA','Temp','ECG','EMG']  
-        self.data, self.labels, self.subjects = self.load_dataset()
+        self.signal_names = ['ACC','Resp','EDA','Temp','ECG','EMG']
+
+        self.data = None
+        self.labels = None
+        self.subjects = None
+        if data_path is not None:
+            self.data, self.labels, self.subjects = self.load_dataset()  
     
     def load_dataset(self):
         subjects = [f'S{i}' for i in range(1, 18) if i not in [1, 12]]  # S1 and S12 are not available (Problem with sensors)

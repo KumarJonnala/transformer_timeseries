@@ -6,7 +6,7 @@ from load_data import WESADDataset
 from transformer_model import TabTransformer
 from train_test_loop import train_model, evaluate_model
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import recall_score, precision_score, f1_score
+from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef
 
 def main():
     # Device configuration
@@ -18,9 +18,9 @@ def main():
     # Hyperparameters
     config = {
         'lr_rate': 0.0001,
-        'n_epochs': 100,
-        'early_stopping_patience': 5,
-        'early_stopping_min_delta': 0.001,
+        'n_epochs': 25,
+        'early_stopping_patience': 3,
+        'early_stopping_min_delta': 0.001
     }
 
     # Load dataset
@@ -28,7 +28,7 @@ def main():
     # DATASET_PATH = '~/Library/Mobile Documents/com~apple~CloudDocs/Phoenix/OVGU/HiWi2/Tasks/10_WESAD/WESAD.nosync'
     # ds = WESADDataset(DATASET_PATH)
 
-    ds = WESADDataset()
+    ds = WESADDataset(None)
     pickle_path = os.path.join('/Users/kumar/Desktop/Projects/transformer_timeseries', 'wesad_raw.pkl')
     with open(pickle_path, 'rb') as f:
         saved_data = pickle.load(f)
@@ -121,25 +121,29 @@ def main():
         
         # Evaluate best model
         test_acc, test_preds, test_labels = evaluate_model(
-            model=best_model_state['model_state_dict'],
-            test_loader=test_loader,
-            device=device
+        model=model,
+        best_model_state=best_model_state,
+        test_loader=test_loader,
+        device=device
         )
 
         test_preds = np.array(test_preds)
         test_labels = np.array(test_labels)
         
         metrics = {
-            'accuracy': test_acc * 100,  # Convert to percentage
+            'accuracy': test_acc,
             'f1_score': f1_score(test_labels, test_preds, average='weighted'),
             'precision': precision_score(test_labels, test_preds, average='weighted'),
-            'recall': recall_score(test_labels, test_preds, average='weighted')
+            'recall': recall_score(test_labels, test_preds, average='weighted'),
+            'mcc': matthews_corrcoef(test_labels, test_preds)
         }
         
         loocv_results.append({
             'subject': test_subject,
             'metrics': metrics,
-            'history': history
+            'history': history,
+            'predictions': test_preds,
+            'true_labels': test_labels
         })
         
         print(f"Subject {test_subject} Results:")
@@ -147,15 +151,25 @@ def main():
         print(f"F1 Score: {metrics['f1_score']:.4f}")
         print(f"Precision: {metrics['precision']:.4f}")
         print(f"Recall: {metrics['recall']:.4f}")
+        print(f"MCC: {metrics['mcc']:.4f}")
 
     # Print final summary
     print("\nMean Metrics Across All Subjects:")
     print("=" * 60)
-    metrics_to_average = ['accuracy', 'f1_score', 'precision', 'recall']
-    for metric in metrics_to_average:
-        mean_value = np.mean([r['metrics'][metric] for r in loocv_results])
-        std_value = np.std([r['metrics'][metric] for r in loocv_results])
-        print(f"Mean {metric}: {mean_value:.2f} ± {std_value:.2f}")
+    for r in loocv_results:
+        print(f"{r['subject']}:"
+            f"Acc={r['accuracy']:.2f}, F1={r['f1_score']:.4f}, "
+            f"Prec={r['precision']:.4f}, Rec={r['recall']:.4f}, "
+            f"MCC={r['mcc']:.4f}")
+        
+    # Calculate and print mean metrics
+    print(f"\nMean Metrics Across All Subjects:")
+    print("=" * 60)
+    print(f"Accuracy:  {np.mean([r['accuracy'] for r in loocv_results]):.2f}%")
+    print(f"F1 Score:  {np.mean([r['f1_score'] for r in loocv_results]):.4f}")
+    print(f"Precision: {np.mean([r['precision'] for r in loocv_results]):.4f}")
+    print(f"Recall:    {np.mean([r['recall'] for r in loocv_results]):.4f}")
+    print(f"MCC:       {np.mean([r['mcc'] for r in loocv_results]):.4f}")
         
     # Save results
     results_path = os.path.join(os.path.dirname(__file__), 'results.pkl')
