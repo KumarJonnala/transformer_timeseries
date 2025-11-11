@@ -26,7 +26,7 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, n_epoc
             optimizer.step()             # Update weights
 
             epoch_loss += loss.item() * x.size(0) # loss * batch_size
-            # ---- Compute training accuracy ----
+            # Compute training accuracy 
             _, predicted = torch.max(outputs, dim=1)
             correct += (predicted == y).sum().item()
             total += y.size(0)
@@ -34,9 +34,7 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, n_epoc
         # Epoch summary
         epoch_train_loss = epoch_loss / total  
         epoch_train_acc = 100.0 * correct / total
-
         history.append((epoch_train_loss, epoch_train_acc))
-
         print(f"Epoch [{epoch+1}/{n_epochs}] Loss: {epoch_train_loss:.4f} | Acc: {epoch_train_acc:.2f}%")  
         
         # Step the scheduler based on training loss

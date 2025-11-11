@@ -5,6 +5,7 @@ import pickle
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef
 
+# import module files
 from config import Config
 from load_data import WESADDataset
 from transformer_model import TabTransformer
@@ -13,12 +14,9 @@ from train_test_loop import train_model, evaluate_model
 
 def main():
     # Device configuration
-    device = torch.device("mps" if torch.backends.mps.is_available() else
-                         "cuda" if torch.cuda.is_available() else
-                         "cpu")                   
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")                   
     print(f"Using device: {device}")
 
-    
     # Load dataset
     # ds = WESADDataset(Config.DATASET_PATH)
     ds = WESADDataset(None)
@@ -34,13 +32,13 @@ def main():
         end = start + count
         subject_indices[subject] = [start, end]
         start = end
-    print(Config.SUBJECT_COUNTS, '\n')
+    print(Config.SUBJECT_COUNTS, '\n', subject_indices)
 
     # LOOCV training and evaluation
     loocv_results = []
     for test_subject, test_range in subject_indices.items():
         print(f"\n{'='*60}")
-        print(f"Testing on Subject: {test_subject}")
+        print(f"Test subject: {test_subject}, Range: {test_range}")
         print(f"{'='*60}")
         
         # Create test set
@@ -51,6 +49,7 @@ def main():
         for subj, subj_range in subject_indices.items():
             if subj != test_subject:
                 train_indices.extend(range(subj_range[0], subj_range[1]))
+        
         
         # Get train and test data
         train_data = ds.data[train_indices]
@@ -74,7 +73,7 @@ def main():
         train_loader = DataLoader(train_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         test_loader = DataLoader(test_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         
-        print(f"Train: {len(train_ds)} samples, Test: {len(test_ds)} samples")
+        print(f"Train: {len(train_ds)} samples, Test: {len(test_ds)} samples, Total: {len(train_ds) + len(test_ds)} samples")
         
         # Initialize model
         model = TabTransformer(
@@ -89,12 +88,7 @@ def main():
         # Training setup
         criterion = torch.nn.CrossEntropyLoss().to(device)
         optimizer = torch.optim.Adam(model.parameters(), lr=Config.LEARNING_RATE)
-        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-            optimizer, 
-            mode='min', 
-            factor=Config.SCHEDULER_FACTOR, 
-            patience=Config.SCHEDULER_PATIENCE
-        )
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=Config.SCHEDULER_FACTOR, patience=Config.SCHEDULER_PATIENCE)
         
         # Train model
         history, best_model_state = train_model(
@@ -168,7 +162,7 @@ def main():
     print(f"  Scheduler Patience: {Config.SCHEDULER_PATIENCE}")
     print("=" * 60)
 
-    print("\nMean Metrics Across All Subjects:")
+    print("\nMetrics of Each Subjects:")
     print("=" * 60)
     for r in loocv_results:
         print(f"{r['subject']}:"
