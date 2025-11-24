@@ -15,6 +15,9 @@ class Config:
     # Training configuration
     # Window size = 128, How many timesteps or consecutive records each sample contains
     # window size is downsampled from 700 Hz to 32Hz, 128/32 = 4 seconds of data per window
+    RANDOM_SEED = 42
+    N_TRIALS = 40
+    TIMEOUT = 7200 #2 hours
     LEARNING_RATE = 0.0001
     NUM_EPOCHS = 100
     BATCH_SIZE = 32        # batch size = How many independent samples are processed in parallel
@@ -32,4 +35,6 @@ class Config:
     # Optimizer configuration
     SCHEDULER_FACTOR = 0.5
     SCHEDULER_PATIENCE = 3
+
+    CHECKPOINT_DIR = "./checkpoints"
     

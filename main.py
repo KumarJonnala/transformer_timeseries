@@ -3,7 +3,8 @@ import torch
 import numpy as np
 import pickle
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef
+from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef, confusion_matrix
+
 
 # import module files
 from config import Config
@@ -70,7 +71,7 @@ def main():
         test_ds = TensorDataset(torch.FloatTensor(test_data_normalized), 
                             torch.LongTensor(ds.labels[test_indices]))
         
-        train_loader = DataLoader(train_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
+        train_loader = DataLoader(train_ds, batch_size=Config.BATCH_SIZE, shuffle=True)
         test_loader = DataLoader(test_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         
         print(f"Train: {len(train_ds)} samples, Test: {len(test_ds)} samples, Total: {len(train_ds) + len(test_ds)} samples")
@@ -116,6 +117,7 @@ def main():
 
         metrics = {
             'accuracy': test_acc,
+            'confusion_matrix': confusion_matrix(test_labels, test_preds),
             'f1_score': f1_score(test_labels, test_preds, average='weighted'),
             'precision': precision_score(test_labels, test_preds, average='weighted'),
             'recall': recall_score(test_labels, test_preds, average='weighted'),
@@ -133,6 +135,7 @@ def main():
         print(f"Subject {test_subject} Results:")
         print(f"Test Labels: {test_labels}")
         print(f"Test Pred: {test_preds}")
+        print(f"Confusion Matrix:\n{metrics['confusion_matrix']}")
         print(f"Accuracy: {metrics['accuracy']:.2f}%")
         print(f"F1 Score: {metrics['f1_score']:.4f}")
         print(f"Precision: {metrics['precision']:.4f}")

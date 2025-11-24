@@ -7,6 +7,10 @@ kumar@Kumars-MacBook-Air ~ % ssh bumu60du@ants.cs.ovgu.de
 
 # slurm
 
+cd /home/bumu60du/transformers_ovgu
+
+cd /home/bumu60du/transformers_hyperparams
+
 sbatch 	slurm_tabtransformer.sh # submit job
 
 squeue # status
