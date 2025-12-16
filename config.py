@@ -18,14 +18,14 @@ class Config:
     RANDOM_SEED = 42
     N_TRIALS = 40
     TIMEOUT = 7200 #2 hours
-    LEARNING_RATE = 0.0001
+    LEARNING_RATE = 0.001
     NUM_EPOCHS = 100
-    BATCH_SIZE = 32        # batch size = How many independent samples are processed in parallel
+    BATCH_SIZE = 16        # batch size = How many independent samples are processed in parallel
     EARLY_STOPPING_PATIENCE = 8
     EARLY_STOPPING_MIN_DELTA = 0.001
     
     # Model configuration
-    NUM_FEATURES = 6       # 6 features, ['ACC','Resp','EDA','Temp','ECG','EMG']
+    NUM_FEATURES = 5       # 5 for LOMO, total 6 features: ['ACC','Resp','EDA','Temp','ECG','EMG']
     NUM_CLASSES = 2        # 2 labels, 0 for Baseline and 1 for Stress label for 4 seconds window
     EMBEDDING_DIM = 64
     NUM_HEADS = 4          # num_heads = width of attention (how many perspectives are considered in parallel).

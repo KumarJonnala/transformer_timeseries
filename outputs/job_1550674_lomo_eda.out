@@ -1,0 +1,2842 @@
+Using device: cuda
+{'S2': 440, 'S3': 445, 'S4': 449, 'S5': 460, 'S6': 458, 'S7': 457, 'S8': 460, 'S9': 456, 'S10': 476, 'S11': 465, 'S13': 461, 'S14': 464, 'S15': 464, 'S16': 463, 'S17': 476} 
+ {'S2': [0, 440], 'S3': [440, 885], 'S4': [885, 1334], 'S5': [1334, 1794], 'S6': [1794, 2252], 'S7': [2252, 2709], 'S8': [2709, 3169], 'S9': [3169, 3625], 'S10': [3625, 4101], 'S11': [4101, 4566], 'S13': [4566, 5027], 'S14': [5027, 5491], 'S15': [5491, 5955], 'S16': [5955, 6418], 'S17': [6418, 6894]}
+
+============================================================
+Test subject: S2, Range: [0, 440]
+============================================================
+  Train samples: 5163, Val samples: 1291, Test samples: 440
+Epoch [1/100]
+  Train Loss: 0.2936 | Train Acc: 87.68%
+  Val Loss: 0.2734 | Val Acc: 88.77%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2734
+Epoch [2/100]
+  Train Loss: 0.1429 | Train Acc: 94.17%
+  Val Loss: 0.1089 | Val Acc: 96.44%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1089
+Epoch [3/100]
+  Train Loss: 0.1069 | Train Acc: 95.72%
+  Val Loss: 0.1200 | Val Acc: 95.58%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [4/100]
+  Train Loss: 0.1033 | Train Acc: 95.87%
+  Val Loss: 0.1366 | Val Acc: 95.43%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [5/100]
+  Train Loss: 0.0895 | Train Acc: 96.38%
+  Val Loss: 0.0915 | Val Acc: 96.51%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0915
+Epoch [6/100]
+  Train Loss: 0.0728 | Train Acc: 97.50%
+  Val Loss: 0.0834 | Val Acc: 96.75%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0834
+Epoch [7/100]
+  Train Loss: 0.0724 | Train Acc: 97.09%
+  Val Loss: 0.0665 | Val Acc: 97.60%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0665
+Epoch [8/100]
+  Train Loss: 0.0679 | Train Acc: 97.62%
+  Val Loss: 0.2085 | Val Acc: 94.81%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0749 | Train Acc: 97.31%
+  Val Loss: 0.0564 | Val Acc: 98.14%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0564
+Epoch [10/100]
+  Train Loss: 0.0730 | Train Acc: 97.52%
+  Val Loss: 0.0708 | Val Acc: 96.90%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [11/100]
+  Train Loss: 0.0847 | Train Acc: 97.13%
+  Val Loss: 0.0810 | Val Acc: 96.82%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [12/100]
+  Train Loss: 0.0671 | Train Acc: 97.71%
+  Val Loss: 0.0561 | Val Acc: 97.91%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [13/100]
+  Train Loss: 0.0614 | Train Acc: 97.77%
+  Val Loss: 0.0489 | Val Acc: 98.61%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0489
+Epoch [14/100]
+  Train Loss: 0.0697 | Train Acc: 97.44%
+  Val Loss: 0.0826 | Val Acc: 96.67%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0522 | Train Acc: 98.10%
+  Val Loss: 0.0576 | Val Acc: 98.06%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [16/100]
+  Train Loss: 0.0549 | Train Acc: 98.22%
+  Val Loss: 0.1068 | Val Acc: 96.59%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [17/100]
+  Train Loss: 0.0687 | Train Acc: 97.40%
+  Val Loss: 0.0834 | Val Acc: 96.98%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [18/100]
+  Train Loss: 0.0368 | Train Acc: 98.70%
+  Val Loss: 0.0740 | Val Acc: 97.44%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [19/100]
+  Train Loss: 0.0331 | Train Acc: 98.76%
+  Val Loss: 0.0501 | Val Acc: 98.37%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [20/100]
+  Train Loss: 0.0260 | Train Acc: 99.03%
+  Val Loss: 0.0876 | Val Acc: 97.06%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [21/100]
+  Train Loss: 0.0190 | Train Acc: 99.26%
+  Val Loss: 0.0623 | Val Acc: 97.68%
+  Learning rate: 0.000250
+  Early stopping counter: 8/8
+
+Early stopping triggered after 21 epochs!
+Best validation loss: 0.0489 at epoch 13
+
+Subject S2 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  Confusion Matrix:
+[[285   1]
+ [154   0]]
+  Accuracy: 64.77%
+  F1 Score: 0.5110
+  Precision: 0.4220
+  Recall: 0.6477
+  MCC: -0.0350
+
+============================================================
+Test subject: S3, Range: [440, 885]
+============================================================
+  Train samples: 5159, Val samples: 1290, Test samples: 445
+Epoch [1/100]
+  Train Loss: 0.2890 | Train Acc: 87.21%
+  Val Loss: 0.1591 | Val Acc: 93.95%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1591
+Epoch [2/100]
+  Train Loss: 0.1538 | Train Acc: 94.34%
+  Val Loss: 0.2160 | Val Acc: 92.95%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [3/100]
+  Train Loss: 0.1063 | Train Acc: 96.05%
+  Val Loss: 0.0973 | Val Acc: 96.67%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0973
+Epoch [4/100]
+  Train Loss: 0.0940 | Train Acc: 96.32%
+  Val Loss: 0.0787 | Val Acc: 97.13%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0787
+Epoch [5/100]
+  Train Loss: 0.0786 | Train Acc: 97.01%
+  Val Loss: 0.1026 | Val Acc: 96.43%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [6/100]
+  Train Loss: 0.0732 | Train Acc: 97.44%
+  Val Loss: 0.1326 | Val Acc: 95.35%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [7/100]
+  Train Loss: 0.0690 | Train Acc: 97.85%
+  Val Loss: 0.0518 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0518
+Epoch [8/100]
+  Train Loss: 0.0615 | Train Acc: 97.85%
+  Val Loss: 0.3036 | Val Acc: 86.28%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0727 | Train Acc: 97.54%
+  Val Loss: 0.0485 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0485
+Epoch [10/100]
+  Train Loss: 0.0540 | Train Acc: 98.22%
+  Val Loss: 0.0900 | Val Acc: 96.67%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [11/100]
+  Train Loss: 0.0520 | Train Acc: 98.00%
+  Val Loss: 0.0502 | Val Acc: 98.29%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [12/100]
+  Train Loss: 0.0525 | Train Acc: 98.35%
+  Val Loss: 0.0475 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0475
+Epoch [13/100]
+  Train Loss: 0.0456 | Train Acc: 98.51%
+  Val Loss: 0.0582 | Val Acc: 97.52%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [14/100]
+  Train Loss: 0.0581 | Train Acc: 98.00%
+  Val Loss: 0.0465 | Val Acc: 98.29%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [15/100]
+  Train Loss: 0.0373 | Train Acc: 98.80%
+  Val Loss: 0.1160 | Val Acc: 96.67%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [16/100]
+  Train Loss: 0.0502 | Train Acc: 98.26%
+  Val Loss: 0.0660 | Val Acc: 97.52%
+  Learning rate: 0.001000
+  Early stopping counter: 4/8
+Epoch [17/100]
+  Train Loss: 0.0413 | Train Acc: 98.72%
+  Val Loss: 0.0425 | Val Acc: 98.53%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0425
+Epoch [18/100]
+  Train Loss: 0.0425 | Train Acc: 98.60%
+  Val Loss: 0.0854 | Val Acc: 97.13%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [19/100]
+  Train Loss: 0.0642 | Train Acc: 98.14%
+  Val Loss: 0.0488 | Val Acc: 98.22%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [20/100]
+  Train Loss: 0.0323 | Train Acc: 99.05%
+  Val Loss: 0.0781 | Val Acc: 97.60%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [21/100]
+  Train Loss: 0.0314 | Train Acc: 98.99%
+  Val Loss: 0.0595 | Val Acc: 98.14%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [22/100]
+  Train Loss: 0.0194 | Train Acc: 99.38%
+  Val Loss: 0.0312 | Val Acc: 98.91%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0312
+Epoch [23/100]
+  Train Loss: 0.0138 | Train Acc: 99.46%
+  Val Loss: 0.0577 | Val Acc: 98.29%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [24/100]
+  Train Loss: 0.0148 | Train Acc: 99.52%
+  Val Loss: 0.0350 | Val Acc: 98.60%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [25/100]
+  Train Loss: 0.0145 | Train Acc: 99.59%
+  Val Loss: 0.0783 | Val Acc: 97.98%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [26/100]
+  Train Loss: 0.0074 | Train Acc: 99.84%
+  Val Loss: 0.0259 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0259
+Epoch [27/100]
+  Train Loss: 0.0224 | Train Acc: 99.40%
+  Val Loss: 0.0366 | Val Acc: 98.68%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [28/100]
+  Train Loss: 0.0194 | Train Acc: 99.32%
+  Val Loss: 0.0439 | Val Acc: 98.84%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [29/100]
+  Train Loss: 0.0107 | Train Acc: 99.69%
+  Val Loss: 0.0294 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [30/100]
+  Train Loss: 0.0048 | Train Acc: 99.84%
+  Val Loss: 0.0314 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [31/100]
+  Train Loss: 0.0023 | Train Acc: 99.92%
+  Val Loss: 0.0407 | Val Acc: 99.07%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [32/100]
+  Train Loss: 0.0006 | Train Acc: 100.00%
+  Val Loss: 0.0380 | Val Acc: 98.99%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [33/100]
+  Train Loss: 0.0012 | Train Acc: 99.96%
+  Val Loss: 0.0383 | Val Acc: 99.07%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [34/100]
+  Train Loss: 0.0089 | Train Acc: 99.79%
+  Val Loss: 0.0320 | Val Acc: 99.22%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 34 epochs!
+Best validation loss: 0.0259 at epoch 26
+
+Subject S3 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+  Test Pred: [0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 1 0 1 1 0 0 0 1 0 0
+ 0 0 1 1 1 1 1 0 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 1 1 1
+ 1 0 1 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 1 1 1 1 1 0 0 1 1 0
+ 1 1 1 0 1 0 0 0 1 1 0 0 1 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 0]
+  Confusion Matrix:
+[[ 72 213]
+ [132  28]]
+  Accuracy: 22.47%
+  F1 Score: 0.2388
+  Precision: 0.2678
+  Recall: 0.2247
+  MCC: -0.5512
+
+============================================================
+Test subject: S4, Range: [885, 1334]
+============================================================
+  Train samples: 5156, Val samples: 1289, Test samples: 449
+Epoch [1/100]
+  Train Loss: 0.3124 | Train Acc: 86.21%
+  Val Loss: 0.1839 | Val Acc: 93.33%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1839
+Epoch [2/100]
+  Train Loss: 0.1671 | Train Acc: 93.02%
+  Val Loss: 0.1031 | Val Acc: 96.59%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1031
+Epoch [3/100]
+  Train Loss: 0.1006 | Train Acc: 96.45%
+  Val Loss: 0.0605 | Val Acc: 97.91%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0605
+Epoch [4/100]
+  Train Loss: 0.0927 | Train Acc: 96.39%
+  Val Loss: 0.0916 | Val Acc: 96.66%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.0599 | Train Acc: 97.79%
+  Val Loss: 0.0509 | Val Acc: 98.68%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0509
+Epoch [6/100]
+  Train Loss: 0.0624 | Train Acc: 97.91%
+  Val Loss: 0.0541 | Val Acc: 98.53%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [7/100]
+  Train Loss: 0.0811 | Train Acc: 97.44%
+  Val Loss: 0.0524 | Val Acc: 98.68%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [8/100]
+  Train Loss: 0.0595 | Train Acc: 97.77%
+  Val Loss: 0.0418 | Val Acc: 98.68%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0418
+Epoch [9/100]
+  Train Loss: 0.0441 | Train Acc: 98.58%
+  Val Loss: 0.0433 | Val Acc: 98.68%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [10/100]
+  Train Loss: 0.0441 | Train Acc: 98.47%
+  Val Loss: 0.0683 | Val Acc: 97.98%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [11/100]
+  Train Loss: 0.0605 | Train Acc: 98.10%
+  Val Loss: 0.0390 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0390
+Epoch [12/100]
+  Train Loss: 0.0432 | Train Acc: 98.49%
+  Val Loss: 0.0466 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [13/100]
+  Train Loss: 0.0393 | Train Acc: 98.55%
+  Val Loss: 0.0667 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [14/100]
+  Train Loss: 0.0768 | Train Acc: 97.52%
+  Val Loss: 0.0649 | Val Acc: 97.75%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [15/100]
+  Train Loss: 0.0650 | Train Acc: 97.81%
+  Val Loss: 0.0800 | Val Acc: 97.75%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [16/100]
+  Train Loss: 0.0437 | Train Acc: 98.51%
+  Val Loss: 0.0935 | Val Acc: 96.35%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [17/100]
+  Train Loss: 0.0234 | Train Acc: 99.09%
+  Val Loss: 0.0321 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0321
+Epoch [18/100]
+  Train Loss: 0.0230 | Train Acc: 99.30%
+  Val Loss: 0.0299 | Val Acc: 99.53%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0299
+Epoch [19/100]
+  Train Loss: 0.0177 | Train Acc: 99.48%
+  Val Loss: 0.0293 | Val Acc: 99.30%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [20/100]
+  Train Loss: 0.0163 | Train Acc: 99.53%
+  Val Loss: 0.0236 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0236
+Epoch [21/100]
+  Train Loss: 0.0166 | Train Acc: 99.50%
+  Val Loss: 0.0443 | Val Acc: 98.60%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [22/100]
+  Train Loss: 0.0202 | Train Acc: 99.38%
+  Val Loss: 0.0488 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [23/100]
+  Train Loss: 0.0229 | Train Acc: 99.28%
+  Val Loss: 0.0269 | Val Acc: 99.30%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [24/100]
+  Train Loss: 0.0182 | Train Acc: 99.46%
+  Val Loss: 0.0466 | Val Acc: 98.76%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [25/100]
+  Train Loss: 0.0140 | Train Acc: 99.61%
+  Val Loss: 0.0286 | Val Acc: 98.99%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [26/100]
+  Train Loss: 0.0113 | Train Acc: 99.75%
+  Val Loss: 0.0314 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [27/100]
+  Train Loss: 0.0072 | Train Acc: 99.77%
+  Val Loss: 0.0247 | Val Acc: 99.46%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [28/100]
+  Train Loss: 0.0070 | Train Acc: 99.79%
+  Val Loss: 0.0216 | Val Acc: 99.53%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0216
+Epoch [29/100]
+  Train Loss: 0.0103 | Train Acc: 99.59%
+  Val Loss: 0.0306 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [30/100]
+  Train Loss: 0.0065 | Train Acc: 99.75%
+  Val Loss: 0.0296 | Val Acc: 99.30%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [31/100]
+  Train Loss: 0.0046 | Train Acc: 99.81%
+  Val Loss: 0.0444 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [32/100]
+  Train Loss: 0.0112 | Train Acc: 99.63%
+  Val Loss: 0.0282 | Val Acc: 99.30%
+  Learning rate: 0.000125
+  Early stopping counter: 4/8
+Epoch [33/100]
+  Train Loss: 0.0035 | Train Acc: 99.88%
+  Val Loss: 0.0255 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 5/8
+Epoch [34/100]
+  Train Loss: 0.0021 | Train Acc: 99.94%
+  Val Loss: 0.0222 | Val Acc: 99.69%
+  Learning rate: 0.000125
+  Early stopping counter: 6/8
+Epoch [35/100]
+  Train Loss: 0.0017 | Train Acc: 99.92%
+  Val Loss: 0.0275 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 7/8
+Epoch [36/100]
+  Train Loss: 0.0012 | Train Acc: 99.98%
+  Val Loss: 0.0276 | Val Acc: 99.53%
+  Learning rate: 0.000063
+  Early stopping counter: 8/8
+
+Early stopping triggered after 36 epochs!
+Best validation loss: 0.0216 at epoch 28
+
+Subject S4 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0]
+  Confusion Matrix:
+[[290   0]
+ [159   0]]
+  Accuracy: 64.59%
+  F1 Score: 0.5069
+  Precision: 0.4172
+  Recall: 0.6459
+  MCC: 0.0000
+
+============================================================
+Test subject: S5, Range: [1334, 1794]
+============================================================
+  Train samples: 5147, Val samples: 1287, Test samples: 460
+Epoch [1/100]
+  Train Loss: 0.2980 | Train Acc: 86.52%
+  Val Loss: 0.1747 | Val Acc: 92.85%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1747
+Epoch [2/100]
+  Train Loss: 0.1583 | Train Acc: 93.59%
+  Val Loss: 0.1087 | Val Acc: 95.88%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1087
+Epoch [3/100]
+  Train Loss: 0.1146 | Train Acc: 95.65%
+  Val Loss: 0.0786 | Val Acc: 97.28%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0786
+Epoch [4/100]
+  Train Loss: 0.1113 | Train Acc: 95.40%
+  Val Loss: 0.0844 | Val Acc: 96.66%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.0919 | Train Acc: 96.35%
+  Val Loss: 0.0552 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0552
+Epoch [6/100]
+  Train Loss: 0.0786 | Train Acc: 97.12%
+  Val Loss: 0.0469 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0469
+Epoch [7/100]
+  Train Loss: 0.0609 | Train Acc: 97.71%
+  Val Loss: 0.0754 | Val Acc: 97.51%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [8/100]
+  Train Loss: 0.0905 | Train Acc: 96.77%
+  Val Loss: 0.0551 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [9/100]
+  Train Loss: 0.0652 | Train Acc: 97.38%
+  Val Loss: 0.0987 | Val Acc: 95.96%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [10/100]
+  Train Loss: 0.0554 | Train Acc: 97.88%
+  Val Loss: 0.0595 | Val Acc: 97.67%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [11/100]
+  Train Loss: 0.0348 | Train Acc: 98.80%
+  Val Loss: 0.0311 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0311
+Epoch [12/100]
+  Train Loss: 0.0306 | Train Acc: 98.85%
+  Val Loss: 0.0188 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0188
+Epoch [13/100]
+  Train Loss: 0.0243 | Train Acc: 99.07%
+  Val Loss: 0.0148 | Val Acc: 99.84%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0148
+Epoch [14/100]
+  Train Loss: 0.0211 | Train Acc: 99.32%
+  Val Loss: 0.0203 | Val Acc: 99.46%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0243 | Train Acc: 99.30%
+  Val Loss: 0.0399 | Val Acc: 98.68%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [16/100]
+  Train Loss: 0.0277 | Train Acc: 99.09%
+  Val Loss: 0.0568 | Val Acc: 98.06%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [17/100]
+  Train Loss: 0.0232 | Train Acc: 99.22%
+  Val Loss: 0.0635 | Val Acc: 97.82%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [18/100]
+  Train Loss: 0.0099 | Train Acc: 99.61%
+  Val Loss: 0.0164 | Val Acc: 99.46%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [19/100]
+  Train Loss: 0.0059 | Train Acc: 99.81%
+  Val Loss: 0.0169 | Val Acc: 99.46%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [20/100]
+  Train Loss: 0.0046 | Train Acc: 99.88%
+  Val Loss: 0.0211 | Val Acc: 99.53%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [21/100]
+  Train Loss: 0.0065 | Train Acc: 99.79%
+  Val Loss: 0.0215 | Val Acc: 99.61%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 21 epochs!
+Best validation loss: 0.0148 at epoch 13
+
+Subject S5 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 0 1 1
+ 0 0 1 0 1 0 0 1 0 0 1 0 0 0 1 1 0 1 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1
+ 0 0 0 0 0 0 1 1 1 1 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1
+ 1 0 1 0 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1
+ 1 0 0 0 1 1 1 0 1 1 1 0 1 0 1 1]
+  Confusion Matrix:
+[[143 156]
+ [ 20 141]]
+  Accuracy: 61.74%
+  F1 Score: 0.6179
+  Precision: 0.7364
+  Recall: 0.6174
+  MCC: 0.3530
+
+============================================================
+Test subject: S6, Range: [1794, 2252]
+============================================================
+  Train samples: 5148, Val samples: 1288, Test samples: 458
+Epoch [1/100]
+  Train Loss: 0.3417 | Train Acc: 84.98%
+  Val Loss: 0.1587 | Val Acc: 94.33%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1587
+Epoch [2/100]
+  Train Loss: 0.1857 | Train Acc: 92.54%
+  Val Loss: 0.1408 | Val Acc: 95.34%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1408
+Epoch [3/100]
+  Train Loss: 0.1537 | Train Acc: 94.02%
+  Val Loss: 0.1253 | Val Acc: 95.65%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1253
+Epoch [4/100]
+  Train Loss: 0.1213 | Train Acc: 95.59%
+  Val Loss: 0.1122 | Val Acc: 95.81%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1122
+Epoch [5/100]
+  Train Loss: 0.1249 | Train Acc: 95.05%
+  Val Loss: 0.0894 | Val Acc: 96.82%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0894
+Epoch [6/100]
+  Train Loss: 0.0944 | Train Acc: 96.70%
+  Val Loss: 0.0863 | Val Acc: 96.89%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0863
+Epoch [7/100]
+  Train Loss: 0.0932 | Train Acc: 97.03%
+  Val Loss: 0.0758 | Val Acc: 98.06%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0758
+Epoch [8/100]
+  Train Loss: 0.0991 | Train Acc: 96.70%
+  Val Loss: 0.1142 | Val Acc: 95.81%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0823 | Train Acc: 96.78%
+  Val Loss: 0.1072 | Val Acc: 96.58%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [10/100]
+  Train Loss: 0.0870 | Train Acc: 96.83%
+  Val Loss: 0.0885 | Val Acc: 96.89%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [11/100]
+  Train Loss: 0.0707 | Train Acc: 97.63%
+  Val Loss: 0.0893 | Val Acc: 97.52%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [12/100]
+  Train Loss: 0.0402 | Train Acc: 98.64%
+  Val Loss: 0.0575 | Val Acc: 97.90%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0575
+Epoch [13/100]
+  Train Loss: 0.0323 | Train Acc: 98.95%
+  Val Loss: 0.0454 | Val Acc: 98.52%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0454
+Epoch [14/100]
+  Train Loss: 0.0298 | Train Acc: 98.91%
+  Val Loss: 0.0758 | Val Acc: 97.83%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0356 | Train Acc: 98.72%
+  Val Loss: 0.0502 | Val Acc: 98.37%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [16/100]
+  Train Loss: 0.0300 | Train Acc: 99.01%
+  Val Loss: 0.0422 | Val Acc: 98.76%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0422
+Epoch [17/100]
+  Train Loss: 0.0288 | Train Acc: 99.01%
+  Val Loss: 0.0587 | Val Acc: 97.98%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [18/100]
+  Train Loss: 0.0253 | Train Acc: 99.22%
+  Val Loss: 0.0631 | Val Acc: 98.06%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [19/100]
+  Train Loss: 0.0195 | Train Acc: 99.28%
+  Val Loss: 0.0607 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [20/100]
+  Train Loss: 0.0273 | Train Acc: 99.15%
+  Val Loss: 0.0379 | Val Acc: 98.52%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0379
+Epoch [21/100]
+  Train Loss: 0.0252 | Train Acc: 99.16%
+  Val Loss: 0.0241 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0241
+Epoch [22/100]
+  Train Loss: 0.0195 | Train Acc: 99.24%
+  Val Loss: 0.0331 | Val Acc: 99.07%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [23/100]
+  Train Loss: 0.0135 | Train Acc: 99.48%
+  Val Loss: 0.0786 | Val Acc: 98.14%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [24/100]
+  Train Loss: 0.0226 | Train Acc: 99.16%
+  Val Loss: 0.0556 | Val Acc: 98.29%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [25/100]
+  Train Loss: 0.0196 | Train Acc: 99.28%
+  Val Loss: 0.0399 | Val Acc: 98.60%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [26/100]
+  Train Loss: 0.0057 | Train Acc: 99.83%
+  Val Loss: 0.0216 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0216
+Epoch [27/100]
+  Train Loss: 0.0066 | Train Acc: 99.77%
+  Val Loss: 0.0212 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [28/100]
+  Train Loss: 0.0025 | Train Acc: 99.94%
+  Val Loss: 0.0259 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [29/100]
+  Train Loss: 0.0021 | Train Acc: 99.96%
+  Val Loss: 0.0319 | Val Acc: 99.30%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [30/100]
+  Train Loss: 0.0016 | Train Acc: 99.96%
+  Val Loss: 0.0474 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [31/100]
+  Train Loss: 0.0100 | Train Acc: 99.67%
+  Val Loss: 0.0522 | Val Acc: 98.60%
+  Learning rate: 0.000125
+  Early stopping counter: 5/8
+Epoch [32/100]
+  Train Loss: 0.0049 | Train Acc: 99.81%
+  Val Loss: 0.0272 | Val Acc: 99.22%
+  Learning rate: 0.000125
+  Early stopping counter: 6/8
+Epoch [33/100]
+  Train Loss: 0.0011 | Train Acc: 99.96%
+  Val Loss: 0.0302 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 7/8
+Epoch [34/100]
+  Train Loss: 0.0004 | Train Acc: 100.00%
+  Val Loss: 0.0282 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 34 epochs!
+Best validation loss: 0.0216 at epoch 26
+
+Subject S6 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 0 0 1 0
+ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+ 1 0 0 0 0 1 0 1 1 1 0 0 1 1]
+  Confusion Matrix:
+[[294   1]
+ [ 24 139]]
+  Accuracy: 94.54%
+  F1 Score: 0.9444
+  Precision: 0.9488
+  Recall: 0.9454
+  MCC: 0.8827
+
+============================================================
+Test subject: S7, Range: [2252, 2709]
+============================================================
+  Train samples: 5149, Val samples: 1288, Test samples: 457
+Epoch [1/100]
+  Train Loss: 0.3136 | Train Acc: 86.04%
+  Val Loss: 0.1730 | Val Acc: 93.94%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1730
+Epoch [2/100]
+  Train Loss: 0.1413 | Train Acc: 94.50%
+  Val Loss: 0.0997 | Val Acc: 96.58%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0997
+Epoch [3/100]
+  Train Loss: 0.1220 | Train Acc: 95.36%
+  Val Loss: 0.0852 | Val Acc: 97.36%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0852
+Epoch [4/100]
+  Train Loss: 0.0883 | Train Acc: 96.56%
+  Val Loss: 0.0674 | Val Acc: 97.44%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0674
+Epoch [5/100]
+  Train Loss: 0.0803 | Train Acc: 97.05%
+  Val Loss: 0.0688 | Val Acc: 97.44%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [6/100]
+  Train Loss: 0.0674 | Train Acc: 97.42%
+  Val Loss: 0.1164 | Val Acc: 95.96%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [7/100]
+  Train Loss: 0.0666 | Train Acc: 97.65%
+  Val Loss: 0.0593 | Val Acc: 97.98%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0593
+Epoch [8/100]
+  Train Loss: 0.0604 | Train Acc: 98.08%
+  Val Loss: 0.0932 | Val Acc: 96.04%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0658 | Train Acc: 97.79%
+  Val Loss: 0.0541 | Val Acc: 98.06%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0541
+Epoch [10/100]
+  Train Loss: 0.0790 | Train Acc: 97.38%
+  Val Loss: 0.0715 | Val Acc: 97.59%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [11/100]
+  Train Loss: 0.0662 | Train Acc: 97.69%
+  Val Loss: 0.1200 | Val Acc: 95.73%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [12/100]
+  Train Loss: 0.0804 | Train Acc: 97.16%
+  Val Loss: 0.0528 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0528
+Epoch [13/100]
+  Train Loss: 0.0484 | Train Acc: 98.15%
+  Val Loss: 0.0521 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [14/100]
+  Train Loss: 0.0511 | Train Acc: 98.12%
+  Val Loss: 0.0605 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [15/100]
+  Train Loss: 0.0481 | Train Acc: 98.37%
+  Val Loss: 0.0440 | Val Acc: 98.68%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0440
+Epoch [16/100]
+  Train Loss: 0.0427 | Train Acc: 98.47%
+  Val Loss: 0.0323 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0323
+Epoch [17/100]
+  Train Loss: 0.0514 | Train Acc: 98.15%
+  Val Loss: 0.0459 | Val Acc: 98.29%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [18/100]
+  Train Loss: 0.0398 | Train Acc: 98.52%
+  Val Loss: 0.0272 | Val Acc: 99.30%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0272
+Epoch [19/100]
+  Train Loss: 0.0316 | Train Acc: 98.78%
+  Val Loss: 0.0339 | Val Acc: 98.99%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [20/100]
+  Train Loss: 0.0691 | Train Acc: 97.63%
+  Val Loss: 0.0414 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [21/100]
+  Train Loss: 0.0561 | Train Acc: 98.14%
+  Val Loss: 0.0431 | Val Acc: 98.84%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [22/100]
+  Train Loss: 0.0479 | Train Acc: 98.29%
+  Val Loss: 0.0622 | Val Acc: 97.98%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [23/100]
+  Train Loss: 0.0267 | Train Acc: 99.22%
+  Val Loss: 0.0472 | Val Acc: 98.37%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [24/100]
+  Train Loss: 0.0189 | Train Acc: 99.36%
+  Val Loss: 0.0278 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [25/100]
+  Train Loss: 0.0174 | Train Acc: 99.42%
+  Val Loss: 0.0294 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [26/100]
+  Train Loss: 0.0192 | Train Acc: 99.22%
+  Val Loss: 0.0315 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 8/8
+
+Early stopping triggered after 26 epochs!
+Best validation loss: 0.0272 at epoch 18
+
+Subject S7 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 1 0 0 1 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 1
+ 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 1 0 1 0 1 1 0 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1
+ 0 1 1 1 1 1 1 0 0 0 1 1 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0
+ 1 1 1 1 1 1 0 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 0 0 0 0 1 0 1 1 0 0 1
+ 0 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1
+ 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1
+ 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1
+ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  Confusion Matrix:
+[[103 194]
+ [149  11]]
+  Accuracy: 24.95%
+  F1 Score: 0.2650
+  Precision: 0.2844
+  Recall: 0.2495
+  MCC: -0.5605
+
+============================================================
+Test subject: S8, Range: [2709, 3169]
+============================================================
+  Train samples: 5147, Val samples: 1287, Test samples: 460
+Epoch [1/100]
+  Train Loss: 0.3413 | Train Acc: 84.81%
+  Val Loss: 0.2210 | Val Acc: 92.31%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2210
+Epoch [2/100]
+  Train Loss: 0.2087 | Train Acc: 91.45%
+  Val Loss: 0.1244 | Val Acc: 95.03%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1244
+Epoch [3/100]
+  Train Loss: 0.1354 | Train Acc: 94.42%
+  Val Loss: 0.1542 | Val Acc: 94.48%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [4/100]
+  Train Loss: 0.1186 | Train Acc: 95.41%
+  Val Loss: 0.0791 | Val Acc: 96.81%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0791
+Epoch [5/100]
+  Train Loss: 0.0942 | Train Acc: 96.58%
+  Val Loss: 0.1982 | Val Acc: 92.62%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [6/100]
+  Train Loss: 0.0821 | Train Acc: 97.09%
+  Val Loss: 0.0511 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0511
+Epoch [7/100]
+  Train Loss: 0.0728 | Train Acc: 97.22%
+  Val Loss: 0.0611 | Val Acc: 97.98%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [8/100]
+  Train Loss: 0.0623 | Train Acc: 97.73%
+  Val Loss: 0.1007 | Val Acc: 96.66%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [9/100]
+  Train Loss: 0.0676 | Train Acc: 97.61%
+  Val Loss: 0.0546 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [10/100]
+  Train Loss: 0.0649 | Train Acc: 97.61%
+  Val Loss: 0.0448 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0448
+Epoch [11/100]
+  Train Loss: 0.0530 | Train Acc: 98.02%
+  Val Loss: 0.0386 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0386
+Epoch [12/100]
+  Train Loss: 0.0594 | Train Acc: 97.86%
+  Val Loss: 0.0637 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [13/100]
+  Train Loss: 0.0497 | Train Acc: 98.33%
+  Val Loss: 0.0329 | Val Acc: 98.91%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0329
+Epoch [14/100]
+  Train Loss: 0.0448 | Train Acc: 98.19%
+  Val Loss: 0.0773 | Val Acc: 97.44%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0646 | Train Acc: 97.79%
+  Val Loss: 0.0279 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0279
+Epoch [16/100]
+  Train Loss: 0.0585 | Train Acc: 97.77%
+  Val Loss: 0.0861 | Val Acc: 97.51%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [17/100]
+  Train Loss: 0.0498 | Train Acc: 98.23%
+  Val Loss: 0.0273 | Val Acc: 99.15%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [18/100]
+  Train Loss: 0.0519 | Train Acc: 98.17%
+  Val Loss: 0.0345 | Val Acc: 98.91%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [19/100]
+  Train Loss: 0.0547 | Train Acc: 98.17%
+  Val Loss: 0.0550 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 4/8
+Epoch [20/100]
+  Train Loss: 0.0374 | Train Acc: 98.85%
+  Val Loss: 0.0484 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  Early stopping counter: 5/8
+Epoch [21/100]
+  Train Loss: 0.0553 | Train Acc: 98.02%
+  Val Loss: 0.0991 | Val Acc: 96.19%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [22/100]
+  Train Loss: 0.0346 | Train Acc: 98.76%
+  Val Loss: 0.0367 | Val Acc: 99.07%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [23/100]
+  Train Loss: 0.0297 | Train Acc: 99.13%
+  Val Loss: 0.0186 | Val Acc: 99.53%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0186
+Epoch [24/100]
+  Train Loss: 0.0168 | Train Acc: 99.36%
+  Val Loss: 0.0236 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [25/100]
+  Train Loss: 0.0154 | Train Acc: 99.53%
+  Val Loss: 0.0222 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [26/100]
+  Train Loss: 0.0259 | Train Acc: 99.16%
+  Val Loss: 0.0250 | Val Acc: 98.83%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [27/100]
+  Train Loss: 0.0232 | Train Acc: 99.16%
+  Val Loss: 0.0292 | Val Acc: 98.99%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [28/100]
+  Train Loss: 0.0154 | Train Acc: 99.42%
+  Val Loss: 0.0173 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0173
+Epoch [29/100]
+  Train Loss: 0.0088 | Train Acc: 99.73%
+  Val Loss: 0.0259 | Val Acc: 98.99%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [30/100]
+  Train Loss: 0.0086 | Train Acc: 99.71%
+  Val Loss: 0.0228 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [31/100]
+  Train Loss: 0.0108 | Train Acc: 99.65%
+  Val Loss: 0.0262 | Val Acc: 98.99%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [32/100]
+  Train Loss: 0.0073 | Train Acc: 99.75%
+  Val Loss: 0.0323 | Val Acc: 99.07%
+  Learning rate: 0.000125
+  Early stopping counter: 4/8
+Epoch [33/100]
+  Train Loss: 0.0055 | Train Acc: 99.90%
+  Val Loss: 0.0173 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 5/8
+Epoch [34/100]
+  Train Loss: 0.0034 | Train Acc: 99.92%
+  Val Loss: 0.0217 | Val Acc: 99.22%
+  Learning rate: 0.000125
+  Early stopping counter: 6/8
+Epoch [35/100]
+  Train Loss: 0.0038 | Train Acc: 99.90%
+  Val Loss: 0.0238 | Val Acc: 99.07%
+  Learning rate: 0.000125
+  Early stopping counter: 7/8
+Epoch [36/100]
+  Train Loss: 0.0030 | Train Acc: 99.90%
+  Val Loss: 0.0201 | Val Acc: 99.30%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 36 epochs!
+Best validation loss: 0.0173 at epoch 28
+
+Subject S8 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1]
+  Confusion Matrix:
+[[286   6]
+ [  5 163]]
+  Accuracy: 97.61%
+  F1 Score: 0.9761
+  Precision: 0.9761
+  Recall: 0.9761
+  MCC: 0.9485
+
+============================================================
+Test subject: S9, Range: [3169, 3625]
+============================================================
+  Train samples: 5150, Val samples: 1288, Test samples: 456
+Epoch [1/100]
+  Train Loss: 0.3396 | Train Acc: 83.96%
+  Val Loss: 0.2274 | Val Acc: 91.30%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2274
+Epoch [2/100]
+  Train Loss: 0.1946 | Train Acc: 92.31%
+  Val Loss: 0.1334 | Val Acc: 94.72%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1334
+Epoch [3/100]
+  Train Loss: 0.1323 | Train Acc: 95.17%
+  Val Loss: 0.1102 | Val Acc: 96.51%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1102
+Epoch [4/100]
+  Train Loss: 0.1115 | Train Acc: 95.90%
+  Val Loss: 0.2790 | Val Acc: 88.90%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.0909 | Train Acc: 96.45%
+  Val Loss: 0.1756 | Val Acc: 94.64%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [6/100]
+  Train Loss: 0.0960 | Train Acc: 96.58%
+  Val Loss: 0.0420 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0420
+Epoch [7/100]
+  Train Loss: 0.0770 | Train Acc: 97.20%
+  Val Loss: 0.1488 | Val Acc: 94.95%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [8/100]
+  Train Loss: 0.0664 | Train Acc: 97.79%
+  Val Loss: 0.0356 | Val Acc: 98.91%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0356
+Epoch [9/100]
+  Train Loss: 0.0560 | Train Acc: 98.02%
+  Val Loss: 0.0585 | Val Acc: 98.29%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [10/100]
+  Train Loss: 0.0591 | Train Acc: 98.16%
+  Val Loss: 0.0480 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [11/100]
+  Train Loss: 0.0556 | Train Acc: 98.08%
+  Val Loss: 0.1652 | Val Acc: 93.32%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [12/100]
+  Train Loss: 0.0547 | Train Acc: 98.12%
+  Val Loss: 0.1254 | Val Acc: 96.82%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [13/100]
+  Train Loss: 0.0311 | Train Acc: 98.91%
+  Val Loss: 0.0247 | Val Acc: 99.46%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0247
+Epoch [14/100]
+  Train Loss: 0.0159 | Train Acc: 99.57%
+  Val Loss: 0.0173 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0173
+Epoch [15/100]
+  Train Loss: 0.0210 | Train Acc: 99.36%
+  Val Loss: 0.0252 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [16/100]
+  Train Loss: 0.0222 | Train Acc: 99.30%
+  Val Loss: 0.0209 | Val Acc: 99.46%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [17/100]
+  Train Loss: 0.0296 | Train Acc: 98.95%
+  Val Loss: 0.0457 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [18/100]
+  Train Loss: 0.0184 | Train Acc: 99.42%
+  Val Loss: 0.0258 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [19/100]
+  Train Loss: 0.0157 | Train Acc: 99.46%
+  Val Loss: 0.0206 | Val Acc: 99.61%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [20/100]
+  Train Loss: 0.0082 | Train Acc: 99.73%
+  Val Loss: 0.0210 | Val Acc: 99.61%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [21/100]
+  Train Loss: 0.0045 | Train Acc: 99.88%
+  Val Loss: 0.0228 | Val Acc: 99.46%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [22/100]
+  Train Loss: 0.0118 | Train Acc: 99.59%
+  Val Loss: 0.0252 | Val Acc: 99.30%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 22 epochs!
+Best validation loss: 0.0173 at epoch 14
+
+Subject S9 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1
+ 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 1 0 0 0 1 0 0 1 1 0 1 1 0 0 0 1 1
+ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1
+ 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1
+ 1 1 1 1 1 1 1 1 1 0 1 1]
+  Confusion Matrix:
+[[228  67]
+ [ 47 114]]
+  Accuracy: 75.00%
+  F1 Score: 0.7529
+  Precision: 0.7587
+  Recall: 0.7500
+  MCC: 0.4698
+
+============================================================
+Test subject: S10, Range: [3625, 4101]
+============================================================
+  Train samples: 5134, Val samples: 1284, Test samples: 476
+Epoch [1/100]
+  Train Loss: 0.3121 | Train Acc: 85.64%
+  Val Loss: 0.2069 | Val Acc: 92.68%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2069
+Epoch [2/100]
+  Train Loss: 0.1718 | Train Acc: 92.79%
+  Val Loss: 0.1341 | Val Acc: 94.94%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1341
+Epoch [3/100]
+  Train Loss: 0.1385 | Train Acc: 94.80%
+  Val Loss: 0.1255 | Val Acc: 96.11%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1255
+Epoch [4/100]
+  Train Loss: 0.1181 | Train Acc: 95.23%
+  Val Loss: 0.1079 | Val Acc: 95.72%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1079
+Epoch [5/100]
+  Train Loss: 0.0977 | Train Acc: 96.44%
+  Val Loss: 0.1321 | Val Acc: 94.08%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [6/100]
+  Train Loss: 0.0855 | Train Acc: 96.63%
+  Val Loss: 0.1395 | Val Acc: 94.55%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [7/100]
+  Train Loss: 0.0702 | Train Acc: 97.37%
+  Val Loss: 0.0748 | Val Acc: 97.43%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0748
+Epoch [8/100]
+  Train Loss: 0.0778 | Train Acc: 97.23%
+  Val Loss: 0.0604 | Val Acc: 97.74%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0604
+Epoch [9/100]
+  Train Loss: 0.0628 | Train Acc: 97.84%
+  Val Loss: 0.0587 | Val Acc: 98.05%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0587
+Epoch [10/100]
+  Train Loss: 0.0696 | Train Acc: 97.66%
+  Val Loss: 0.0375 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0375
+Epoch [11/100]
+  Train Loss: 0.0705 | Train Acc: 97.47%
+  Val Loss: 0.0380 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [12/100]
+  Train Loss: 0.0484 | Train Acc: 98.19%
+  Val Loss: 0.0375 | Val Acc: 98.83%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [13/100]
+  Train Loss: 0.0608 | Train Acc: 98.19%
+  Val Loss: 0.0561 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [14/100]
+  Train Loss: 0.0414 | Train Acc: 98.56%
+  Val Loss: 0.0402 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  Early stopping counter: 4/8
+Epoch [15/100]
+  Train Loss: 0.0466 | Train Acc: 98.48%
+  Val Loss: 0.0521 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 5/8
+Epoch [16/100]
+  Train Loss: 0.0399 | Train Acc: 98.64%
+  Val Loss: 0.0555 | Val Acc: 98.36%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [17/100]
+  Train Loss: 0.0215 | Train Acc: 99.34%
+  Val Loss: 0.0460 | Val Acc: 98.36%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [18/100]
+  Train Loss: 0.0160 | Train Acc: 99.53%
+  Val Loss: 0.0178 | Val Acc: 99.30%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0178
+Epoch [19/100]
+  Train Loss: 0.0135 | Train Acc: 99.49%
+  Val Loss: 0.0392 | Val Acc: 98.91%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [20/100]
+  Train Loss: 0.0178 | Train Acc: 99.45%
+  Val Loss: 0.0327 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [21/100]
+  Train Loss: 0.0161 | Train Acc: 99.47%
+  Val Loss: 0.0218 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [22/100]
+  Train Loss: 0.0310 | Train Acc: 99.07%
+  Val Loss: 0.0214 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [23/100]
+  Train Loss: 0.0104 | Train Acc: 99.67%
+  Val Loss: 0.0278 | Val Acc: 99.30%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [24/100]
+  Train Loss: 0.0045 | Train Acc: 99.90%
+  Val Loss: 0.0305 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [25/100]
+  Train Loss: 0.0085 | Train Acc: 99.67%
+  Val Loss: 0.0292 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [26/100]
+  Train Loss: 0.0058 | Train Acc: 99.81%
+  Val Loss: 0.0380 | Val Acc: 99.22%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 26 epochs!
+Best validation loss: 0.0178 at epoch 18
+
+Subject S10 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Confusion Matrix:
+[[291   4]
+ [  6 175]]
+  Accuracy: 97.90%
+  F1 Score: 0.9790
+  Precision: 0.9790
+  Recall: 0.9790
+  MCC: 0.9554
+
+============================================================
+Test subject: S11, Range: [4101, 4566]
+============================================================
+  Train samples: 5143, Val samples: 1286, Test samples: 465
+Epoch [1/100]
+  Train Loss: 0.3157 | Train Acc: 85.22%
+  Val Loss: 0.2069 | Val Acc: 90.82%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2069
+Epoch [2/100]
+  Train Loss: 0.1699 | Train Acc: 92.92%
+  Val Loss: 0.1146 | Val Acc: 95.26%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1146
+Epoch [3/100]
+  Train Loss: 0.1151 | Train Acc: 95.55%
+  Val Loss: 0.0992 | Val Acc: 96.35%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0992
+Epoch [4/100]
+  Train Loss: 0.1078 | Train Acc: 96.01%
+  Val Loss: 0.1004 | Val Acc: 96.66%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.0850 | Train Acc: 96.89%
+  Val Loss: 0.0627 | Val Acc: 97.67%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0627
+Epoch [6/100]
+  Train Loss: 0.0780 | Train Acc: 97.01%
+  Val Loss: 0.0455 | Val Acc: 98.44%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0455
+Epoch [7/100]
+  Train Loss: 0.0714 | Train Acc: 97.55%
+  Val Loss: 0.0311 | Val Acc: 99.14%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0311
+Epoch [8/100]
+  Train Loss: 0.0682 | Train Acc: 97.51%
+  Val Loss: 0.0492 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0521 | Train Acc: 98.23%
+  Val Loss: 0.0766 | Val Acc: 97.36%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [10/100]
+  Train Loss: 0.0444 | Train Acc: 98.52%
+  Val Loss: 0.0664 | Val Acc: 97.90%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [11/100]
+  Train Loss: 0.0488 | Train Acc: 98.35%
+  Val Loss: 0.0824 | Val Acc: 97.90%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [12/100]
+  Train Loss: 0.0246 | Train Acc: 99.11%
+  Val Loss: 0.0118 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0118
+Epoch [13/100]
+  Train Loss: 0.0174 | Train Acc: 99.28%
+  Val Loss: 0.0137 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [14/100]
+  Train Loss: 0.0222 | Train Acc: 99.28%
+  Val Loss: 0.0274 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [15/100]
+  Train Loss: 0.0059 | Train Acc: 99.88%
+  Val Loss: 0.0140 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [16/100]
+  Train Loss: 0.0159 | Train Acc: 99.46%
+  Val Loss: 0.0253 | Val Acc: 99.30%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [17/100]
+  Train Loss: 0.0078 | Train Acc: 99.79%
+  Val Loss: 0.0140 | Val Acc: 99.61%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [18/100]
+  Train Loss: 0.0033 | Train Acc: 99.94%
+  Val Loss: 0.0154 | Val Acc: 99.53%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [19/100]
+  Train Loss: 0.0028 | Train Acc: 99.94%
+  Val Loss: 0.0299 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [20/100]
+  Train Loss: 0.0148 | Train Acc: 99.59%
+  Val Loss: 0.0365 | Val Acc: 99.07%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 20 epochs!
+Best validation loss: 0.0118 at epoch 12
+
+Subject S11 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1
+ 1 1 0 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 0
+ 0 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 1 1 1 1 1 0 1 0 1 1
+ 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 0 0 0 0 1 1 1 1
+ 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 0 1 0 1 0 0 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 1 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1
+ 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Confusion Matrix:
+[[119 176]
+ [ 33 137]]
+  Accuracy: 55.05%
+  F1 Score: 0.5452
+  Precision: 0.6567
+  Recall: 0.5505
+  MCC: 0.2149
+
+============================================================
+Test subject: S13, Range: [4566, 5027]
+============================================================
+  Train samples: 5146, Val samples: 1287, Test samples: 461
+Epoch [1/100]
+  Train Loss: 0.3271 | Train Acc: 85.60%
+  Val Loss: 0.2658 | Val Acc: 88.73%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2658
+Epoch [2/100]
+  Train Loss: 0.1469 | Train Acc: 94.09%
+  Val Loss: 0.1229 | Val Acc: 95.65%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1229
+Epoch [3/100]
+  Train Loss: 0.1131 | Train Acc: 95.55%
+  Val Loss: 0.1141 | Val Acc: 95.73%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1141
+Epoch [4/100]
+  Train Loss: 0.1190 | Train Acc: 95.57%
+  Val Loss: 0.0704 | Val Acc: 97.05%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0704
+Epoch [5/100]
+  Train Loss: 0.0785 | Train Acc: 97.22%
+  Val Loss: 0.2584 | Val Acc: 91.45%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [6/100]
+  Train Loss: 0.0719 | Train Acc: 97.28%
+  Val Loss: 0.0611 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0611
+Epoch [7/100]
+  Train Loss: 0.0590 | Train Acc: 97.82%
+  Val Loss: 0.0310 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0310
+Epoch [8/100]
+  Train Loss: 0.0643 | Train Acc: 97.75%
+  Val Loss: 0.0597 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0569 | Train Acc: 98.04%
+  Val Loss: 0.0794 | Val Acc: 96.81%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [10/100]
+  Train Loss: 0.0561 | Train Acc: 98.08%
+  Val Loss: 0.0257 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0257
+Epoch [11/100]
+  Train Loss: 0.0450 | Train Acc: 98.46%
+  Val Loss: 0.0238 | Val Acc: 99.30%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0238
+Epoch [12/100]
+  Train Loss: 0.0410 | Train Acc: 98.48%
+  Val Loss: 0.1367 | Val Acc: 95.73%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [13/100]
+  Train Loss: 0.0357 | Train Acc: 98.68%
+  Val Loss: 0.0108 | Val Acc: 99.61%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0108
+Epoch [14/100]
+  Train Loss: 0.0450 | Train Acc: 98.35%
+  Val Loss: 0.0591 | Val Acc: 98.37%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0341 | Train Acc: 98.64%
+  Val Loss: 0.0565 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [16/100]
+  Train Loss: 0.0854 | Train Acc: 97.40%
+  Val Loss: 0.1315 | Val Acc: 96.35%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [17/100]
+  Train Loss: 0.0798 | Train Acc: 97.16%
+  Val Loss: 0.0424 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [18/100]
+  Train Loss: 0.0163 | Train Acc: 99.49%
+  Val Loss: 0.0256 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [19/100]
+  Train Loss: 0.0138 | Train Acc: 99.51%
+  Val Loss: 0.0314 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [20/100]
+  Train Loss: 0.0339 | Train Acc: 99.01%
+  Val Loss: 0.0456 | Val Acc: 98.60%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [21/100]
+  Train Loss: 0.0205 | Train Acc: 99.30%
+  Val Loss: 0.0193 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 8/8
+
+Early stopping triggered after 21 epochs!
+Best validation loss: 0.0108 at epoch 13
+
+Subject S13 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 0 0 0 0
+ 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0
+ 1 1 1 1 1 0 1 0 1 1 0 1 1 1 1 0 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 0 1 0 1 0 0
+ 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1]
+  Confusion Matrix:
+[[251  44]
+ [ 53 113]]
+  Accuracy: 78.96%
+  F1 Score: 0.7882
+  Precision: 0.7875
+  Recall: 0.7896
+  MCC: 0.5384
+
+============================================================
+Test subject: S14, Range: [5027, 5491]
+============================================================
+  Train samples: 5144, Val samples: 1286, Test samples: 464
+Epoch [1/100]
+  Train Loss: 0.3663 | Train Acc: 83.13%
+  Val Loss: 0.2534 | Val Acc: 88.34%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.2534
+Epoch [2/100]
+  Train Loss: 0.1889 | Train Acc: 92.26%
+  Val Loss: 0.1817 | Val Acc: 93.00%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1817
+Epoch [3/100]
+  Train Loss: 0.1377 | Train Acc: 94.32%
+  Val Loss: 0.0818 | Val Acc: 97.20%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0818
+Epoch [4/100]
+  Train Loss: 0.1117 | Train Acc: 95.80%
+  Val Loss: 0.2162 | Val Acc: 93.62%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.1044 | Train Acc: 95.98%
+  Val Loss: 0.1167 | Val Acc: 96.97%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [6/100]
+  Train Loss: 0.0908 | Train Acc: 96.66%
+  Val Loss: 0.0982 | Val Acc: 96.35%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [7/100]
+  Train Loss: 0.1009 | Train Acc: 96.27%
+  Val Loss: 0.0778 | Val Acc: 96.89%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0778
+Epoch [8/100]
+  Train Loss: 0.0842 | Train Acc: 97.24%
+  Val Loss: 0.0473 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0473
+Epoch [9/100]
+  Train Loss: 0.0652 | Train Acc: 97.92%
+  Val Loss: 0.0496 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [10/100]
+  Train Loss: 0.0566 | Train Acc: 98.21%
+  Val Loss: 0.0283 | Val Acc: 99.22%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0283
+Epoch [11/100]
+  Train Loss: 0.0538 | Train Acc: 98.04%
+  Val Loss: 0.0335 | Val Acc: 98.83%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [12/100]
+  Train Loss: 0.0490 | Train Acc: 98.43%
+  Val Loss: 0.0410 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [13/100]
+  Train Loss: 0.0485 | Train Acc: 98.21%
+  Val Loss: 0.0379 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [14/100]
+  Train Loss: 0.0545 | Train Acc: 98.06%
+  Val Loss: 0.0651 | Val Acc: 98.06%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [15/100]
+  Train Loss: 0.0245 | Train Acc: 99.11%
+  Val Loss: 0.0211 | Val Acc: 99.07%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0211
+Epoch [16/100]
+  Train Loss: 0.0197 | Train Acc: 99.22%
+  Val Loss: 0.0443 | Val Acc: 98.06%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [17/100]
+  Train Loss: 0.0367 | Train Acc: 98.85%
+  Val Loss: 0.0203 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [18/100]
+  Train Loss: 0.0190 | Train Acc: 99.18%
+  Val Loss: 0.0211 | Val Acc: 99.46%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [19/100]
+  Train Loss: 0.0147 | Train Acc: 99.55%
+  Val Loss: 0.0155 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0155
+Epoch [20/100]
+  Train Loss: 0.0211 | Train Acc: 99.32%
+  Val Loss: 0.1322 | Val Acc: 97.12%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [21/100]
+  Train Loss: 0.0225 | Train Acc: 99.18%
+  Val Loss: 0.0152 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [22/100]
+  Train Loss: 0.0183 | Train Acc: 99.40%
+  Val Loss: 0.0416 | Val Acc: 98.52%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [23/100]
+  Train Loss: 0.0145 | Train Acc: 99.55%
+  Val Loss: 0.0202 | Val Acc: 99.46%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [24/100]
+  Train Loss: 0.0216 | Train Acc: 99.22%
+  Val Loss: 0.0473 | Val Acc: 98.44%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [25/100]
+  Train Loss: 0.0246 | Train Acc: 99.18%
+  Val Loss: 0.0148 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  Early stopping counter: 6/8
+Epoch [26/100]
+  Train Loss: 0.0078 | Train Acc: 99.79%
+  Val Loss: 0.0359 | Val Acc: 99.22%
+  Learning rate: 0.000500
+  Early stopping counter: 7/8
+Epoch [27/100]
+  Train Loss: 0.0181 | Train Acc: 99.32%
+  Val Loss: 0.0243 | Val Acc: 99.30%
+  Learning rate: 0.000500
+  Early stopping counter: 8/8
+
+Early stopping triggered after 27 epochs!
+Best validation loss: 0.0155 at epoch 19
+
+Subject S14 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1]
+  Confusion Matrix:
+[[294   1]
+ [  8 161]]
+  Accuracy: 98.06%
+  F1 Score: 0.9805
+  Precision: 0.9809
+  Recall: 0.9806
+  MCC: 0.9583
+
+============================================================
+Test subject: S15, Range: [5491, 5955]
+============================================================
+  Train samples: 5144, Val samples: 1286, Test samples: 464
+Epoch [1/100]
+  Train Loss: 0.2966 | Train Acc: 87.25%
+  Val Loss: 0.1118 | Val Acc: 95.80%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1118
+Epoch [2/100]
+  Train Loss: 0.1462 | Train Acc: 94.40%
+  Val Loss: 0.1725 | Val Acc: 94.01%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [3/100]
+  Train Loss: 0.1311 | Train Acc: 95.06%
+  Val Loss: 0.0809 | Val Acc: 97.59%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0809
+Epoch [4/100]
+  Train Loss: 0.1106 | Train Acc: 95.82%
+  Val Loss: 0.0696 | Val Acc: 97.12%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0696
+Epoch [5/100]
+  Train Loss: 0.0878 | Train Acc: 96.73%
+  Val Loss: 0.0657 | Val Acc: 97.20%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0657
+Epoch [6/100]
+  Train Loss: 0.0827 | Train Acc: 97.14%
+  Val Loss: 0.0484 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0484
+Epoch [7/100]
+  Train Loss: 0.0779 | Train Acc: 97.20%
+  Val Loss: 0.0395 | Val Acc: 98.44%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0395
+Epoch [8/100]
+  Train Loss: 0.0610 | Train Acc: 98.06%
+  Val Loss: 0.0680 | Val Acc: 97.59%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0629 | Train Acc: 97.73%
+  Val Loss: 0.0192 | Val Acc: 99.30%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0192
+Epoch [10/100]
+  Train Loss: 0.0480 | Train Acc: 98.23%
+  Val Loss: 0.0298 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [11/100]
+  Train Loss: 0.0688 | Train Acc: 97.71%
+  Val Loss: 0.0360 | Val Acc: 98.44%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [12/100]
+  Train Loss: 0.0417 | Train Acc: 98.35%
+  Val Loss: 0.0450 | Val Acc: 98.13%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [13/100]
+  Train Loss: 0.0393 | Train Acc: 98.81%
+  Val Loss: 0.0951 | Val Acc: 96.66%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [14/100]
+  Train Loss: 0.0246 | Train Acc: 99.28%
+  Val Loss: 0.0170 | Val Acc: 99.61%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0170
+Epoch [15/100]
+  Train Loss: 0.0156 | Train Acc: 99.55%
+  Val Loss: 0.0151 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0151
+Epoch [16/100]
+  Train Loss: 0.0077 | Train Acc: 99.83%
+  Val Loss: 0.0562 | Val Acc: 98.21%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [17/100]
+  Train Loss: 0.0211 | Train Acc: 99.38%
+  Val Loss: 0.0405 | Val Acc: 98.76%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [18/100]
+  Train Loss: 0.0166 | Train Acc: 99.28%
+  Val Loss: 0.0255 | Val Acc: 98.99%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [19/100]
+  Train Loss: 0.0143 | Train Acc: 99.49%
+  Val Loss: 0.0158 | Val Acc: 99.46%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [20/100]
+  Train Loss: 0.0072 | Train Acc: 99.81%
+  Val Loss: 0.0171 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [21/100]
+  Train Loss: 0.0039 | Train Acc: 99.88%
+  Val Loss: 0.0213 | Val Acc: 99.30%
+  Learning rate: 0.000250
+  Early stopping counter: 6/8
+Epoch [22/100]
+  Train Loss: 0.0107 | Train Acc: 99.63%
+  Val Loss: 0.0189 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  Early stopping counter: 7/8
+Epoch [23/100]
+  Train Loss: 0.0037 | Train Acc: 99.86%
+  Val Loss: 0.0254 | Val Acc: 98.99%
+  Learning rate: 0.000125
+  Early stopping counter: 8/8
+
+Early stopping triggered after 23 epochs!
+Best validation loss: 0.0151 at epoch 15
+
+Subject S15 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 1 1 1 1 1 1
+ 1 1 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1
+ 0 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 1 0 1 1 0 1 1 1 1 1 0 1 0
+ 1 1 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 1 1 1]
+  Confusion Matrix:
+[[ 47 246]
+ [ 33 138]]
+  Accuracy: 39.87%
+  F1 Score: 0.3424
+  Precision: 0.5034
+  Recall: 0.3987
+  MCC: -0.0416
+
+============================================================
+Test subject: S16, Range: [5955, 6418]
+============================================================
+  Train samples: 5144, Val samples: 1287, Test samples: 463
+Epoch [1/100]
+  Train Loss: 0.3294 | Train Acc: 84.29%
+  Val Loss: 0.1868 | Val Acc: 91.84%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1868
+Epoch [2/100]
+  Train Loss: 0.1816 | Train Acc: 92.59%
+  Val Loss: 0.4432 | Val Acc: 85.00%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [3/100]
+  Train Loss: 0.1541 | Train Acc: 93.86%
+  Val Loss: 0.1357 | Val Acc: 94.17%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1357
+Epoch [4/100]
+  Train Loss: 0.1271 | Train Acc: 95.16%
+  Val Loss: 0.2016 | Val Acc: 94.17%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [5/100]
+  Train Loss: 0.1088 | Train Acc: 95.78%
+  Val Loss: 0.3222 | Val Acc: 88.89%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [6/100]
+  Train Loss: 0.0910 | Train Acc: 96.70%
+  Val Loss: 0.0466 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0466
+Epoch [7/100]
+  Train Loss: 0.0845 | Train Acc: 96.71%
+  Val Loss: 0.0577 | Val Acc: 98.14%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [8/100]
+  Train Loss: 0.0873 | Train Acc: 96.54%
+  Val Loss: 0.0841 | Val Acc: 96.66%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [9/100]
+  Train Loss: 0.0778 | Train Acc: 97.20%
+  Val Loss: 0.1303 | Val Acc: 94.79%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [10/100]
+  Train Loss: 0.0662 | Train Acc: 97.73%
+  Val Loss: 0.0423 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0423
+Epoch [11/100]
+  Train Loss: 0.0631 | Train Acc: 97.51%
+  Val Loss: 0.0640 | Val Acc: 97.36%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [12/100]
+  Train Loss: 0.0672 | Train Acc: 97.47%
+  Val Loss: 0.0597 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [13/100]
+  Train Loss: 0.0576 | Train Acc: 97.88%
+  Val Loss: 0.0805 | Val Acc: 96.89%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [14/100]
+  Train Loss: 0.0792 | Train Acc: 97.22%
+  Val Loss: 0.0830 | Val Acc: 97.36%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [15/100]
+  Train Loss: 0.0378 | Train Acc: 98.60%
+  Val Loss: 0.0458 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  Early stopping counter: 5/8
+Epoch [16/100]
+  Train Loss: 0.0273 | Train Acc: 99.01%
+  Val Loss: 0.0307 | Val Acc: 98.91%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0307
+Epoch [17/100]
+  Train Loss: 0.0200 | Train Acc: 99.34%
+  Val Loss: 0.0399 | Val Acc: 98.76%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [18/100]
+  Train Loss: 0.0174 | Train Acc: 99.36%
+  Val Loss: 0.0406 | Val Acc: 98.83%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [19/100]
+  Train Loss: 0.0214 | Train Acc: 99.26%
+  Val Loss: 0.0336 | Val Acc: 98.91%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [20/100]
+  Train Loss: 0.0296 | Train Acc: 98.87%
+  Val Loss: 0.0479 | Val Acc: 97.98%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [21/100]
+  Train Loss: 0.0117 | Train Acc: 99.51%
+  Val Loss: 0.0278 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0278
+Epoch [22/100]
+  Train Loss: 0.0070 | Train Acc: 99.81%
+  Val Loss: 0.0313 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [23/100]
+  Train Loss: 0.0084 | Train Acc: 99.71%
+  Val Loss: 0.0270 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [24/100]
+  Train Loss: 0.0062 | Train Acc: 99.79%
+  Val Loss: 0.0356 | Val Acc: 99.07%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [25/100]
+  Train Loss: 0.0100 | Train Acc: 99.65%
+  Val Loss: 0.0444 | Val Acc: 98.91%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [26/100]
+  Train Loss: 0.0104 | Train Acc: 99.69%
+  Val Loss: 0.0353 | Val Acc: 99.07%
+  Learning rate: 0.000250
+  Early stopping counter: 5/8
+Epoch [27/100]
+  Train Loss: 0.0064 | Train Acc: 99.83%
+  Val Loss: 0.0264 | Val Acc: 99.22%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0264
+Epoch [28/100]
+  Train Loss: 0.0059 | Train Acc: 99.81%
+  Val Loss: 0.0285 | Val Acc: 99.15%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [29/100]
+  Train Loss: 0.0059 | Train Acc: 99.83%
+  Val Loss: 0.0294 | Val Acc: 99.07%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [30/100]
+  Train Loss: 0.0122 | Train Acc: 99.53%
+  Val Loss: 0.0448 | Val Acc: 98.91%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [31/100]
+  Train Loss: 0.0078 | Train Acc: 99.63%
+  Val Loss: 0.0283 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 4/8
+Epoch [32/100]
+  Train Loss: 0.0018 | Train Acc: 99.96%
+  Val Loss: 0.0262 | Val Acc: 99.38%
+  Learning rate: 0.000125
+  Early stopping counter: 5/8
+Epoch [33/100]
+  Train Loss: 0.0016 | Train Acc: 99.94%
+  Val Loss: 0.0254 | Val Acc: 99.15%
+  Learning rate: 0.000125
+  ✓ New best validation loss: 0.0254
+Epoch [34/100]
+  Train Loss: 0.0007 | Train Acc: 100.00%
+  Val Loss: 0.0236 | Val Acc: 99.38%
+  Learning rate: 0.000125
+  ✓ New best validation loss: 0.0236
+Epoch [35/100]
+  Train Loss: 0.0006 | Train Acc: 100.00%
+  Val Loss: 0.0217 | Val Acc: 99.53%
+  Learning rate: 0.000125
+  ✓ New best validation loss: 0.0217
+Epoch [36/100]
+  Train Loss: 0.0007 | Train Acc: 100.00%
+  Val Loss: 0.0249 | Val Acc: 99.46%
+  Learning rate: 0.000125
+  Early stopping counter: 1/8
+Epoch [37/100]
+  Train Loss: 0.0101 | Train Acc: 99.75%
+  Val Loss: 0.0299 | Val Acc: 99.15%
+  Learning rate: 0.000125
+  Early stopping counter: 2/8
+Epoch [38/100]
+  Train Loss: 0.0018 | Train Acc: 99.92%
+  Val Loss: 0.0237 | Val Acc: 99.38%
+  Learning rate: 0.000125
+  Early stopping counter: 3/8
+Epoch [39/100]
+  Train Loss: 0.0033 | Train Acc: 99.88%
+  Val Loss: 0.0330 | Val Acc: 99.22%
+  Learning rate: 0.000063
+  Early stopping counter: 4/8
+Epoch [40/100]
+  Train Loss: 0.0014 | Train Acc: 99.96%
+  Val Loss: 0.0217 | Val Acc: 99.38%
+  Learning rate: 0.000063
+  Early stopping counter: 5/8
+Epoch [41/100]
+  Train Loss: 0.0006 | Train Acc: 100.00%
+  Val Loss: 0.0219 | Val Acc: 99.53%
+  Learning rate: 0.000063
+  Early stopping counter: 6/8
+Epoch [42/100]
+  Train Loss: 0.0005 | Train Acc: 100.00%
+  Val Loss: 0.0224 | Val Acc: 99.53%
+  Learning rate: 0.000063
+  Early stopping counter: 7/8
+Epoch [43/100]
+  Train Loss: 0.0006 | Train Acc: 99.98%
+  Val Loss: 0.0221 | Val Acc: 99.53%
+  Learning rate: 0.000031
+  Early stopping counter: 8/8
+
+Early stopping triggered after 43 epochs!
+Best validation loss: 0.0217 at epoch 35
+
+Subject S16 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 0 0 0 1 0 0 0 1 1 0 1 1 0 0 0 0 0 1 1 1 1
+ 1 0 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 1
+ 0 1 1 1 1 0 0 1 0 1 0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0
+ 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Confusion Matrix:
+[[168 127]
+ [  0 168]]
+  Accuracy: 72.57%
+  F1 Score: 0.7257
+  Precision: 0.8438
+  Recall: 0.7257
+  MCC: 0.5695
+
+============================================================
+Test subject: S17, Range: [6418, 6894]
+============================================================
+  Train samples: 5134, Val samples: 1284, Test samples: 476
+Epoch [1/100]
+  Train Loss: 0.3687 | Train Acc: 83.66%
+  Val Loss: 0.1710 | Val Acc: 93.07%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1710
+Epoch [2/100]
+  Train Loss: 0.1874 | Train Acc: 92.50%
+  Val Loss: 0.1457 | Val Acc: 94.31%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1457
+Epoch [3/100]
+  Train Loss: 0.1193 | Train Acc: 95.29%
+  Val Loss: 0.1290 | Val Acc: 94.78%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1290
+Epoch [4/100]
+  Train Loss: 0.1225 | Train Acc: 95.38%
+  Val Loss: 0.1122 | Val Acc: 95.64%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.1122
+Epoch [5/100]
+  Train Loss: 0.1084 | Train Acc: 96.10%
+  Val Loss: 0.0910 | Val Acc: 96.73%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0910
+Epoch [6/100]
+  Train Loss: 0.0920 | Train Acc: 96.61%
+  Val Loss: 0.1103 | Val Acc: 96.11%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [7/100]
+  Train Loss: 0.0936 | Train Acc: 96.55%
+  Val Loss: 0.0826 | Val Acc: 96.73%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0826
+Epoch [8/100]
+  Train Loss: 0.0911 | Train Acc: 96.59%
+  Val Loss: 0.1259 | Val Acc: 96.03%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [9/100]
+  Train Loss: 0.0848 | Train Acc: 96.90%
+  Val Loss: 0.0830 | Val Acc: 97.74%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [10/100]
+  Train Loss: 0.0598 | Train Acc: 97.66%
+  Val Loss: 0.0595 | Val Acc: 97.74%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0595
+Epoch [11/100]
+  Train Loss: 0.1319 | Train Acc: 95.71%
+  Val Loss: 0.1076 | Val Acc: 95.56%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [12/100]
+  Train Loss: 0.0891 | Train Acc: 96.96%
+  Val Loss: 0.1635 | Val Acc: 95.02%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [13/100]
+  Train Loss: 0.0696 | Train Acc: 97.60%
+  Val Loss: 0.0547 | Val Acc: 98.36%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0547
+Epoch [14/100]
+  Train Loss: 0.0489 | Train Acc: 98.23%
+  Val Loss: 0.0593 | Val Acc: 98.21%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [15/100]
+  Train Loss: 0.0523 | Train Acc: 97.97%
+  Val Loss: 0.0907 | Val Acc: 97.12%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [16/100]
+  Train Loss: 0.0601 | Train Acc: 97.97%
+  Val Loss: 0.0467 | Val Acc: 98.60%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0467
+Epoch [17/100]
+  Train Loss: 0.0525 | Train Acc: 98.13%
+  Val Loss: 0.0435 | Val Acc: 98.52%
+  Learning rate: 0.001000
+  ✓ New best validation loss: 0.0435
+Epoch [18/100]
+  Train Loss: 0.0555 | Train Acc: 98.13%
+  Val Loss: 0.0991 | Val Acc: 96.42%
+  Learning rate: 0.001000
+  Early stopping counter: 1/8
+Epoch [19/100]
+  Train Loss: 0.0536 | Train Acc: 97.86%
+  Val Loss: 0.0842 | Val Acc: 97.43%
+  Learning rate: 0.001000
+  Early stopping counter: 2/8
+Epoch [20/100]
+  Train Loss: 0.0467 | Train Acc: 98.23%
+  Val Loss: 0.0490 | Val Acc: 98.75%
+  Learning rate: 0.001000
+  Early stopping counter: 3/8
+Epoch [21/100]
+  Train Loss: 0.0530 | Train Acc: 98.23%
+  Val Loss: 0.0990 | Val Acc: 96.88%
+  Learning rate: 0.000500
+  Early stopping counter: 4/8
+Epoch [22/100]
+  Train Loss: 0.0258 | Train Acc: 99.12%
+  Val Loss: 0.0224 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0224
+Epoch [23/100]
+  Train Loss: 0.0151 | Train Acc: 99.47%
+  Val Loss: 0.0162 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  ✓ New best validation loss: 0.0162
+Epoch [24/100]
+  Train Loss: 0.0175 | Train Acc: 99.36%
+  Val Loss: 0.0394 | Val Acc: 98.52%
+  Learning rate: 0.000500
+  Early stopping counter: 1/8
+Epoch [25/100]
+  Train Loss: 0.0140 | Train Acc: 99.45%
+  Val Loss: 0.1204 | Val Acc: 96.81%
+  Learning rate: 0.000500
+  Early stopping counter: 2/8
+Epoch [26/100]
+  Train Loss: 0.0243 | Train Acc: 99.01%
+  Val Loss: 0.0302 | Val Acc: 99.07%
+  Learning rate: 0.000500
+  Early stopping counter: 3/8
+Epoch [27/100]
+  Train Loss: 0.0116 | Train Acc: 99.69%
+  Val Loss: 0.0176 | Val Acc: 99.38%
+  Learning rate: 0.000250
+  Early stopping counter: 4/8
+Epoch [28/100]
+  Train Loss: 0.0056 | Train Acc: 99.81%
+  Val Loss: 0.0152 | Val Acc: 99.61%
+  Learning rate: 0.000250
+  ✓ New best validation loss: 0.0152
+Epoch [29/100]
+  Train Loss: 0.0036 | Train Acc: 99.92%
+  Val Loss: 0.0237 | Val Acc: 99.53%
+  Learning rate: 0.000250
+  Early stopping counter: 1/8
+Epoch [30/100]
+  Train Loss: 0.0019 | Train Acc: 99.96%
+  Val Loss: 0.0189 | Val Acc: 99.53%
+  Learning rate: 0.000250
+  Early stopping counter: 2/8
+Epoch [31/100]
+  Train Loss: 0.0030 | Train Acc: 99.92%
+  Val Loss: 0.0246 | Val Acc: 99.61%
+  Learning rate: 0.000250
+  Early stopping counter: 3/8
+Epoch [32/100]
+  Train Loss: 0.0093 | Train Acc: 99.73%
+  Val Loss: 0.0229 | Val Acc: 99.45%
+  Learning rate: 0.000125
+  Early stopping counter: 4/8
+Epoch [33/100]
+  Train Loss: 0.0027 | Train Acc: 99.92%
+  Val Loss: 0.0261 | Val Acc: 99.30%
+  Learning rate: 0.000125
+  Early stopping counter: 5/8
+Epoch [34/100]
+  Train Loss: 0.0024 | Train Acc: 99.92%
+  Val Loss: 0.0236 | Val Acc: 99.61%
+  Learning rate: 0.000125
+  Early stopping counter: 6/8
+Epoch [35/100]
+  Train Loss: 0.0017 | Train Acc: 99.96%
+  Val Loss: 0.0223 | Val Acc: 99.53%
+  Learning rate: 0.000125
+  Early stopping counter: 7/8
+Epoch [36/100]
+  Train Loss: 0.0018 | Train Acc: 99.96%
+  Val Loss: 0.0268 | Val Acc: 99.45%
+  Learning rate: 0.000063
+  Early stopping counter: 8/8
+
+Early stopping triggered after 36 epochs!
+Best validation loss: 0.0152 at epoch 28
+
+Subject S17 Results:
+  Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+  Confusion Matrix:
+[[295   0]
+ [  0 181]]
+  Accuracy: 100.00%
+  F1 Score: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  MCC: 1.0000
+
+============================================================
+Configuration Parameters:
+============================================================
+Training Configuration:
+  Learning Rate: 0.001
+  Number of Epochs: 100
+  Batch Size: 16
+  Early Stopping Patience: 8
+  Early Stopping Min Delta: 0.001
+
+Model Configuration:
+  Number of Features: 5
+  Number of Classes: 2
+  Embedding Dimension: 64
+  Number of Heads: 4
+  Number of Layers: 4
+  Dropout Rate: 0.1
+
+Optimizer Configuration:
+  Scheduler Factor: 0.5
+  Scheduler Patience: 3
+============================================================
+
+Metrics of Each Subject:
+============================================================
+  S2: Acc=64.77%, F1=0.5110, Prec=0.4220, Rec=0.6477, MCC=-0.0350
+  S3: Acc=22.47%, F1=0.2388, Prec=0.2678, Rec=0.2247, MCC=-0.5512
+  S4: Acc=64.59%, F1=0.5069, Prec=0.4172, Rec=0.6459, MCC=0.0000
+  S5: Acc=61.74%, F1=0.6179, Prec=0.7364, Rec=0.6174, MCC=0.3530
+  S6: Acc=94.54%, F1=0.9444, Prec=0.9488, Rec=0.9454, MCC=0.8827
+  S7: Acc=24.95%, F1=0.2650, Prec=0.2844, Rec=0.2495, MCC=-0.5605
+  S8: Acc=97.61%, F1=0.9761, Prec=0.9761, Rec=0.9761, MCC=0.9485
+  S9: Acc=75.00%, F1=0.7529, Prec=0.7587, Rec=0.7500, MCC=0.4698
+  S10: Acc=97.90%, F1=0.9790, Prec=0.9790, Rec=0.9790, MCC=0.9554
+  S11: Acc=55.05%, F1=0.5452, Prec=0.6567, Rec=0.5505, MCC=0.2149
+  S13: Acc=78.96%, F1=0.7882, Prec=0.7875, Rec=0.7896, MCC=0.5384
+  S14: Acc=98.06%, F1=0.9805, Prec=0.9809, Rec=0.9806, MCC=0.9583
+  S15: Acc=39.87%, F1=0.3424, Prec=0.5034, Rec=0.3987, MCC=-0.0416
+  S16: Acc=72.57%, F1=0.7257, Prec=0.8438, Rec=0.7257, MCC=0.5695
+  S17: Acc=100.00%, F1=1.0000, Prec=1.0000, Rec=1.0000, MCC=1.0000
+
+Mean Metrics Across All Subjects:
+============================================================
+  Accuracy:  69.87%
+  F1 Score:  0.6783
+  Precision: 0.7042
+  Recall:    0.6987
+  MCC:       0.3801
+
+Results saved to: results/loocv_results_wesad_raw_lomo_eda.pkl

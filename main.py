@@ -200,6 +200,16 @@ def main():
     print(f"  Recall:    {np.mean([r['metrics']['recall'] for r in loocv_results]):.4f}")
     print(f"  MCC:       {np.mean([r['metrics']['mcc'] for r in loocv_results]):.4f}")
 
+    # Save results
+    results_dir = 'results'
+    os.makedirs(results_dir, exist_ok=True)
+    
+    # Save full results as pickle
+    results_path = os.path.join(results_dir, f'loocv_results_{Config.DATASET_NAME}.pkl')
+    with open(results_path, 'wb') as f:
+        pickle.dump(loocv_results, f)
+    print(f"\nResults saved to: {results_path}")
+
     return loocv_results
 
 if __name__ == "__main__":
