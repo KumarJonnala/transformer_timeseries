@@ -9,8 +9,8 @@ from sklearn.model_selection import train_test_split
 
 # import module files
 from config import Config
-from load_data import WESADDataset
-from transformer_model import TabTransformer
+from data.loader import WESADDataset
+from models.Tabtransformer import TabTransformer
 from train_test_loop import train_model, evaluate_model
 
 
