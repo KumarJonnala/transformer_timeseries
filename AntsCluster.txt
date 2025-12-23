@@ -8,14 +8,14 @@ cd /home/bumu60du/transformers_ovgu
 cd /home/bumu60du/transformers_hyperparams
 
 # Create virtual environment and acivate
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 
 pip install --upgrade pip
 pip install -r requirements.txt
 
 # slurm job
-sbatch 	slurm_tabtransformer.sh # submit job
+sbatch 	slurm_transformer.sh # submit job
 
 squeue # status
 squeue -u $USER

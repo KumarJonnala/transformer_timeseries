@@ -14,7 +14,7 @@ from optuna.trial import Trial
 from config import Config
 from data.loader import WESADDataset
 from models.Tabtransformer import TabTransformer
-from train_test_loop import train_model, evaluate_model
+from train_test.train_test_loop_tabtrans import train_model, evaluate_model
 
 
 def objective(trial: Trial, device, ds, subject_indices):

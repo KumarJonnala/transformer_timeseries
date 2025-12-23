@@ -19,5 +19,5 @@ mkdir -p /home/bumu60du/transformers_ovgu/outputs
 source /home/bumu60du/transformers_ovgu/venv/bin/activate
 
 # Run training
-cd /home/bumu60du/transformers_ovgu
-python3 main.py
+cd /home/bumu60du/transformers_ovgu/timeseries_transformers
+srun python3 -u main.py

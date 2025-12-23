@@ -4,14 +4,12 @@ import numpy as np
 import pickle
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef, confusion_matrix
-from sklearn.model_selection import train_test_split
-
 
 # import module files
 from config import Config
-from data.loader import WESADDataset
-from models.Tabtransformer import TabTransformer
-from train_test_loop import train_model, evaluate_model
+from data import WESADDataset
+from models import TabTransformer
+from train_test import train_model, evaluate_model
 
 
 def main():
@@ -43,52 +41,39 @@ def main():
         print(f"Test subject: {test_subject}, Range: {test_range}")
         print(f"{'='*60}")
         
+        # Create test set
         test_indices = list(range(test_range[0], test_range[1]))
-        train_val_indices = []
+
+        # Train on all other subjects
+        train_indices = []
         for subj, subj_range in subject_indices.items():
             if subj != test_subject:
-                train_val_indices.extend(range(subj_range[0], subj_range[1]))
+                train_indices.extend(range(subj_range[0], subj_range[1]))
         
-        # Split train_val into train and validation (80/20 split)
-        train_indices, val_indices = train_test_split(
-            train_val_indices, 
-            test_size=0.2, 
-            random_state=Config.RANDOM_SEED,
-            stratify=ds.labels[train_val_indices]  # Stratified split to maintain class distribution
-        )
         
-        # Normalize data using only training data statistics
+        # Get train and test data
         train_data = ds.data[train_indices]
-        val_data = ds.data[val_indices]
         test_data = ds.data[test_indices]
-        
+
+        # Normalize using only training data
         train_means = train_data.mean(axis=(0, 1))
         train_stds = train_data.std(axis=(0, 1))
+
+        # Apply normalization to train and test sets
         epsilon = 1e-8
-        
         train_data_normalized = (train_data - train_means[None, None, :]) / (train_stds[None, None, :] + epsilon)
-        val_data_normalized = (val_data - train_means[None, None, :]) / (train_stds[None, None, :] + epsilon)
         test_data_normalized = (test_data - train_means[None, None, :]) / (train_stds[None, None, :] + epsilon)
-        
-        # Create dataloaders
-        train_ds = TensorDataset(
-            torch.FloatTensor(train_data_normalized), 
-            torch.LongTensor(ds.labels[train_indices])
-        )
-        val_ds = TensorDataset(
-            torch.FloatTensor(val_data_normalized), 
-            torch.LongTensor(ds.labels[val_indices])
-        )
-        test_ds = TensorDataset(
-            torch.FloatTensor(test_data_normalized), 
-            torch.LongTensor(ds.labels[test_indices])
-        )
+
+        # Create datasets and dataloaders
+        train_ds = TensorDataset(torch.FloatTensor(train_data_normalized), 
+                                torch.LongTensor(ds.labels[train_indices]))
+        test_ds = TensorDataset(torch.FloatTensor(test_data_normalized), 
+                            torch.LongTensor(ds.labels[test_indices]))
         
         train_loader = DataLoader(train_ds, batch_size=Config.BATCH_SIZE, shuffle=True)
-        val_loader = DataLoader(val_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         test_loader = DataLoader(test_ds, batch_size=Config.BATCH_SIZE, shuffle=False)
         
-        print(f"  Train samples: {len(train_indices)}, Val samples: {len(val_indices)}, Test samples: {len(test_indices)}")
+        print(f"Train: {len(train_ds)} samples, Test: {len(test_ds)} samples, Total: {len(train_ds) + len(test_ds)} samples")
         
         # Initialize model
         model = TabTransformer(
@@ -105,11 +90,10 @@ def main():
         optimizer = torch.optim.Adam(model.parameters(), lr=Config.LEARNING_RATE)
         scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=Config.SCHEDULER_FACTOR, patience=Config.SCHEDULER_PATIENCE)
         
-        # Train model with validation set
+        # Train model
         history, best_model_state = train_model(
             model=model,
             train_dataloader=train_loader,
-            val_dataloader=val_loader,
             criterion=criterion,
             optimizer=optimizer,
             scheduler=scheduler,
@@ -121,10 +105,10 @@ def main():
         
         # Evaluate best model
         test_acc, test_preds, test_labels = evaluate_model(
-            model=model,
-            best_model_state=best_model_state,
-            test_loader=test_loader,
-            device=device
+        model=model,
+        best_model_state=best_model_state,
+        test_loader=test_loader,
+        device=device
         )
 
         test_preds = np.array(test_preds)
@@ -147,19 +131,18 @@ def main():
             'true_labels': test_labels
         })
         
-        print(f"\nSubject {test_subject} Results:")
-        print(f"  Test Labels: {test_labels}")
-        print(f"  Test Pred: {test_preds}")
-        print(f"  Confusion Matrix:\n{metrics['confusion_matrix']}")
-        print(f"  Accuracy: {metrics['accuracy']:.2f}%")
-        print(f"  F1 Score: {metrics['f1_score']:.4f}")
-        print(f"  Precision: {metrics['precision']:.4f}")
-        print(f"  Recall: {metrics['recall']:.4f}")
-        print(f"  MCC: {metrics['mcc']:.4f}")
+        print(f"Subject {test_subject} Results:")
+        print(f"Test Labels: {test_labels}")
+        print(f"Test Pred: {test_preds}")
+        print(f"Confusion Matrix:\n{metrics['confusion_matrix']}")
+        print(f"Accuracy: {metrics['accuracy']:.2f}%")
+        print(f"F1 Score: {metrics['f1_score']:.4f}")
+        print(f"Precision: {metrics['precision']:.4f}")
+        print(f"Recall: {metrics['recall']:.4f}")
+        print(f"MCC: {metrics['mcc']:.4f}")
 
     # Print final summary
-    print("\n" + "="*60)
-    print("Configuration Parameters:")
+    print("\nConfiguration Parameters:")
     print("=" * 60)
     print("Training Configuration:")
     print(f"  Learning Rate: {Config.LEARNING_RATE}")
@@ -181,11 +164,11 @@ def main():
     print(f"  Scheduler Patience: {Config.SCHEDULER_PATIENCE}")
     print("=" * 60)
 
-    print("\nMetrics of Each Subject:")
+    print("\nMetrics of Each Subjects:")
     print("=" * 60)
     for r in loocv_results:
-        print(f"  {r['subject']}: "
-              f"Acc={r['metrics']['accuracy']:.2f}%, "
+        print(f"{r['subject']}:"
+              f"Acc={r['metrics']['accuracy']:.2f}, "
               f"F1={r['metrics']['f1_score']:.4f}, "
               f"Prec={r['metrics']['precision']:.4f}, "
               f"Rec={r['metrics']['recall']:.4f}, "
@@ -194,21 +177,11 @@ def main():
     # Calculate and print mean metrics
     print(f"\nMean Metrics Across All Subjects:")
     print("=" * 60)
-    print(f"  Accuracy:  {np.mean([r['metrics']['accuracy'] for r in loocv_results]):.2f}%")
-    print(f"  F1 Score:  {np.mean([r['metrics']['f1_score'] for r in loocv_results]):.4f}")
-    print(f"  Precision: {np.mean([r['metrics']['precision'] for r in loocv_results]):.4f}")
-    print(f"  Recall:    {np.mean([r['metrics']['recall'] for r in loocv_results]):.4f}")
-    print(f"  MCC:       {np.mean([r['metrics']['mcc'] for r in loocv_results]):.4f}")
-
-    # Save results
-    results_dir = 'results'
-    os.makedirs(results_dir, exist_ok=True)
-    
-    # Save full results as pickle
-    results_path = os.path.join(results_dir, f'loocv_results_{Config.DATASET_NAME}.pkl')
-    with open(results_path, 'wb') as f:
-        pickle.dump(loocv_results, f)
-    print(f"\nResults saved to: {results_path}")
+    print(f"Accuracy:  {np.mean([r['metrics']['accuracy'] for r in loocv_results]):.2f}%")
+    print(f"F1 Score:  {np.mean([r['metrics']['f1_score'] for r in loocv_results]):.4f}")
+    print(f"Precision: {np.mean([r['metrics']['precision'] for r in loocv_results]):.4f}")
+    print(f"Recall:    {np.mean([r['metrics']['recall'] for r in loocv_results]):.4f}")
+    print(f"MCC:       {np.mean([r['metrics']['mcc'] for r in loocv_results]):.4f}")
 
     return loocv_results
 

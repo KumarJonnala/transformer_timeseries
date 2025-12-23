@@ -1,0 +1,2449 @@
+Using device: cuda
+{'S2': 440, 'S3': 445, 'S4': 449, 'S5': 460, 'S6': 458, 'S7': 457, 'S8': 460, 'S9': 456, 'S10': 476, 'S11': 465, 'S13': 461, 'S14': 464, 'S15': 464, 'S16': 463, 'S17': 476} 
+ {'S2': [0, 440], 'S3': [440, 885], 'S4': [885, 1334], 'S5': [1334, 1794], 'S6': [1794, 2252], 'S7': [2252, 2709], 'S8': [2709, 3169], 'S9': [3169, 3625], 'S10': [3625, 4101], 'S11': [4101, 4566], 'S13': [4566, 5027], 'S14': [5027, 5491], 'S15': [5491, 5955], 'S16': [5955, 6418], 'S17': [6418, 6894]}
+
+============================================================
+Test subject: S2, Range: [0, 440]
+============================================================
+Train: 5485 samples, Val: 969 samples, Test: 440 samples
+Epoch [1/100]
+  Train Loss: 0.3116 | Train Acc: 88.53%
+  Val Loss: 0.1657 | Val Acc: 95.25%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1657
+Epoch [2/100]
+  Train Loss: 0.1417 | Train Acc: 95.75%
+  Val Loss: 0.1428 | Val Acc: 95.25%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1428
+Epoch [3/100]
+  Train Loss: 0.0888 | Train Acc: 97.61%
+  Val Loss: 0.1595 | Val Acc: 95.87%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [4/100]
+  Train Loss: 0.0547 | Train Acc: 98.41%
+  Val Loss: 0.0452 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0452
+Epoch [5/100]
+  Train Loss: 0.0304 | Train Acc: 99.05%
+  Val Loss: 0.0548 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0303 | Train Acc: 99.12%
+  Val Loss: 0.0245 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0245
+Epoch [7/100]
+  Train Loss: 0.0220 | Train Acc: 99.43%
+  Val Loss: 0.0390 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [8/100]
+  Train Loss: 0.0217 | Train Acc: 99.42%
+  Val Loss: 0.0583 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [9/100]
+  Train Loss: 0.0120 | Train Acc: 99.76%
+  Val Loss: 0.0193 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0193
+Epoch [10/100]
+  Train Loss: 0.0108 | Train Acc: 99.71%
+  Val Loss: 0.0179 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0179
+Epoch [11/100]
+  Train Loss: 0.0486 | Train Acc: 99.18%
+  Val Loss: 0.1644 | Val Acc: 97.63%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [12/100]
+  Train Loss: 0.0101 | Train Acc: 99.62%
+  Val Loss: 0.0541 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [13/100]
+  Train Loss: 0.0111 | Train Acc: 99.62%
+  Val Loss: 0.0840 | Val Acc: 98.66%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [14/100]
+  Train Loss: 0.0221 | Train Acc: 99.62%
+  Val Loss: 0.0316 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [15/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0237 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [16/100]
+  Train Loss: 0.0016 | Train Acc: 99.95%
+  Val Loss: 0.0277 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [17/100]
+  Train Loss: 0.0004 | Train Acc: 99.96%
+  Val Loss: 0.0331 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [18/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0294 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 18 epochs
+
+Subject S2 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Confusion Matrix:
+[[286   0]
+ [154   0]]
+Accuracy: 65.00%
+F1 Score: 0.5121
+Precision: 0.4225
+Recall: 0.6500
+MCC: 0.0000
+
+============================================================
+Test subject: S3, Range: [440, 885]
+============================================================
+Train: 5481 samples, Val: 968 samples, Test: 445 samples
+Epoch [1/100]
+  Train Loss: 0.3221 | Train Acc: 87.63%
+  Val Loss: 0.5000 | Val Acc: 88.43%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.5000
+Epoch [2/100]
+  Train Loss: 0.1457 | Train Acc: 96.26%
+  Val Loss: 0.0879 | Val Acc: 97.31%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0879
+Epoch [3/100]
+  Train Loss: 0.0649 | Train Acc: 98.08%
+  Val Loss: 0.0608 | Val Acc: 98.35%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0608
+Epoch [4/100]
+  Train Loss: 0.0452 | Train Acc: 98.81%
+  Val Loss: 0.0814 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0554 | Train Acc: 98.83%
+  Val Loss: 0.0591 | Val Acc: 98.66%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0591
+Epoch [6/100]
+  Train Loss: 0.0299 | Train Acc: 99.23%
+  Val Loss: 0.0491 | Val Acc: 98.97%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0491
+Epoch [7/100]
+  Train Loss: 0.0370 | Train Acc: 99.18%
+  Val Loss: 0.0179 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0179
+Epoch [8/100]
+  Train Loss: 0.0316 | Train Acc: 99.29%
+  Val Loss: 0.0547 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [9/100]
+  Train Loss: 0.0133 | Train Acc: 99.67%
+  Val Loss: 0.1397 | Val Acc: 98.04%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [10/100]
+  Train Loss: 0.0363 | Train Acc: 99.27%
+  Val Loss: 0.0186 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [11/100]
+  Train Loss: 0.0058 | Train Acc: 99.89%
+  Val Loss: 0.0154 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0154
+Epoch [12/100]
+  Train Loss: 0.0226 | Train Acc: 99.49%
+  Val Loss: 0.0390 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [13/100]
+  Train Loss: 0.0427 | Train Acc: 99.25%
+  Val Loss: 0.0209 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [14/100]
+  Train Loss: 0.0271 | Train Acc: 99.38%
+  Val Loss: 0.0334 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [15/100]
+  Train Loss: 0.0218 | Train Acc: 99.62%
+  Val Loss: 0.0166 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [16/100]
+  Train Loss: 0.0029 | Train Acc: 99.93%
+  Val Loss: 0.0146 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [17/100]
+  Train Loss: 0.0013 | Train Acc: 99.93%
+  Val Loss: 0.0288 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [18/100]
+  Train Loss: 0.0046 | Train Acc: 99.93%
+  Val Loss: 0.0160 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [19/100]
+  Train Loss: 0.0010 | Train Acc: 99.95%
+  Val Loss: 0.0150 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 19 epochs
+
+Subject S3 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+Test Pred: [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0
+ 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Confusion Matrix:
+[[284   1]
+ [150  10]]
+Accuracy: 66.07%
+F1 Score: 0.5480
+Precision: 0.7460
+Recall: 0.6607
+MCC: 0.1823
+
+============================================================
+Test subject: S4, Range: [885, 1334]
+============================================================
+Train: 5478 samples, Val: 967 samples, Test: 449 samples
+Epoch [1/100]
+  Train Loss: 0.3297 | Train Acc: 87.09%
+  Val Loss: 0.1463 | Val Acc: 94.42%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1463
+Epoch [2/100]
+  Train Loss: 0.1123 | Train Acc: 96.02%
+  Val Loss: 0.0680 | Val Acc: 98.14%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0680
+Epoch [3/100]
+  Train Loss: 0.0719 | Train Acc: 97.83%
+  Val Loss: 0.1314 | Val Acc: 98.04%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [4/100]
+  Train Loss: 0.0581 | Train Acc: 98.61%
+  Val Loss: 0.0366 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0366
+Epoch [5/100]
+  Train Loss: 0.0357 | Train Acc: 98.92%
+  Val Loss: 0.0475 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0233 | Train Acc: 99.45%
+  Val Loss: 0.2120 | Val Acc: 95.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [7/100]
+  Train Loss: 0.0134 | Train Acc: 99.60%
+  Val Loss: 0.0417 | Val Acc: 98.97%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [8/100]
+  Train Loss: 0.0260 | Train Acc: 99.36%
+  Val Loss: 0.0630 | Val Acc: 99.07%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [9/100]
+  Train Loss: 0.0080 | Train Acc: 99.78%
+  Val Loss: 0.0256 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0256
+Epoch [10/100]
+  Train Loss: 0.0020 | Train Acc: 99.91%
+  Val Loss: 0.0161 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0161
+Epoch [11/100]
+  Train Loss: 0.0013 | Train Acc: 99.98%
+  Val Loss: 0.0146 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0146
+Epoch [12/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0228 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [13/100]
+  Train Loss: 0.0009 | Train Acc: 99.96%
+  Val Loss: 0.0167 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [14/100]
+  Train Loss: 0.0057 | Train Acc: 99.87%
+  Val Loss: 0.0301 | Val Acc: 99.17%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [15/100]
+  Train Loss: 0.0053 | Train Acc: 99.80%
+  Val Loss: 0.0371 | Val Acc: 99.48%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [16/100]
+  Train Loss: 0.0004 | Train Acc: 100.00%
+  Val Loss: 0.0151 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [17/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0091 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0091
+Epoch [18/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0202 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [19/100]
+  Train Loss: 0.0008 | Train Acc: 99.96%
+  Val Loss: 0.0207 | Val Acc: 99.48%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [20/100]
+  Train Loss: 0.0026 | Train Acc: 99.98%
+  Val Loss: 0.0204 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [21/100]
+  Train Loss: 0.0007 | Train Acc: 99.98%
+  Val Loss: 0.0382 | Val Acc: 99.48%
+  Learning rate: 0.000125
+  No improvement. Patience: 4/8
+Epoch [22/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0161 | Val Acc: 99.59%
+  Learning rate: 0.000125
+  No improvement. Patience: 5/8
+Epoch [23/100]
+  Train Loss: 0.0002 | Train Acc: 100.00%
+  Val Loss: 0.0205 | Val Acc: 99.69%
+  Learning rate: 0.000125
+  No improvement. Patience: 6/8
+Epoch [24/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0196 | Val Acc: 99.69%
+  Learning rate: 0.000125
+  No improvement. Patience: 7/8
+Epoch [25/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0164 | Val Acc: 99.69%
+  Learning rate: 0.000063
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 25 epochs
+
+Subject S4 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0]
+Confusion Matrix:
+[[290   0]
+ [159   0]]
+Accuracy: 64.59%
+F1 Score: 0.5069
+Precision: 0.4172
+Recall: 0.6459
+MCC: 0.0000
+
+============================================================
+Test subject: S5, Range: [1334, 1794]
+============================================================
+Train: 5468 samples, Val: 966 samples, Test: 460 samples
+Epoch [1/100]
+  Train Loss: 0.2684 | Train Acc: 89.50%
+  Val Loss: 0.1081 | Val Acc: 96.48%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1081
+Epoch [2/100]
+  Train Loss: 0.1034 | Train Acc: 97.17%
+  Val Loss: 0.1816 | Val Acc: 96.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [3/100]
+  Train Loss: 0.0552 | Train Acc: 98.54%
+  Val Loss: 0.2107 | Val Acc: 95.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [4/100]
+  Train Loss: 0.0402 | Train Acc: 99.07%
+  Val Loss: 0.0275 | Val Acc: 99.28%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0275
+Epoch [5/100]
+  Train Loss: 0.0210 | Train Acc: 99.40%
+  Val Loss: 0.0438 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0309 | Train Acc: 99.27%
+  Val Loss: 0.0764 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [7/100]
+  Train Loss: 0.0494 | Train Acc: 99.03%
+  Val Loss: 0.2057 | Val Acc: 96.27%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [8/100]
+  Train Loss: 0.0275 | Train Acc: 99.38%
+  Val Loss: 0.0458 | Val Acc: 99.17%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [9/100]
+  Train Loss: 0.0058 | Train Acc: 99.82%
+  Val Loss: 0.0313 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [10/100]
+  Train Loss: 0.0031 | Train Acc: 99.89%
+  Val Loss: 0.0274 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [11/100]
+  Train Loss: 0.0032 | Train Acc: 99.87%
+  Val Loss: 0.0294 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [12/100]
+  Train Loss: 0.0034 | Train Acc: 99.89%
+  Val Loss: 0.1264 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 12 epochs
+
+Subject S5 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 1 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Confusion Matrix:
+[[ 22 277]
+ [156   5]]
+Accuracy: 5.87%
+F1 Score: 0.0679
+Precision: 0.0865
+Recall: 0.0587
+MCC: -0.8768
+
+============================================================
+Test subject: S6, Range: [1794, 2252]
+============================================================
+Train: 5470 samples, Val: 966 samples, Test: 458 samples
+Epoch [1/100]
+  Train Loss: 0.3468 | Train Acc: 85.85%
+  Val Loss: 0.1011 | Val Acc: 96.69%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1011
+Epoch [2/100]
+  Train Loss: 0.1146 | Train Acc: 96.54%
+  Val Loss: 0.2608 | Val Acc: 93.27%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [3/100]
+  Train Loss: 0.0635 | Train Acc: 98.08%
+  Val Loss: 0.1045 | Val Acc: 96.89%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [4/100]
+  Train Loss: 0.0397 | Train Acc: 98.59%
+  Val Loss: 0.0976 | Val Acc: 97.52%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0976
+Epoch [5/100]
+  Train Loss: 0.0377 | Train Acc: 98.99%
+  Val Loss: 0.0998 | Val Acc: 98.55%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0431 | Train Acc: 99.10%
+  Val Loss: 0.0624 | Val Acc: 98.55%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0624
+Epoch [7/100]
+  Train Loss: 0.0599 | Train Acc: 99.12%
+  Val Loss: 0.0265 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0265
+Epoch [8/100]
+  Train Loss: 0.0207 | Train Acc: 99.47%
+  Val Loss: 0.0266 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [9/100]
+  Train Loss: 0.0187 | Train Acc: 99.45%
+  Val Loss: 0.0130 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0130
+Epoch [10/100]
+  Train Loss: 0.0155 | Train Acc: 99.51%
+  Val Loss: 0.0622 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [11/100]
+  Train Loss: 0.0438 | Train Acc: 99.05%
+  Val Loss: 0.0425 | Val Acc: 99.28%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [12/100]
+  Train Loss: 0.0157 | Train Acc: 99.62%
+  Val Loss: 0.0181 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [13/100]
+  Train Loss: 0.0256 | Train Acc: 99.47%
+  Val Loss: 0.0215 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [14/100]
+  Train Loss: 0.0016 | Train Acc: 99.93%
+  Val Loss: 0.0131 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [15/100]
+  Train Loss: 0.0006 | Train Acc: 99.98%
+  Val Loss: 0.0092 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0092
+Epoch [16/100]
+  Train Loss: 0.0002 | Train Acc: 100.00%
+  Val Loss: 0.0480 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [17/100]
+  Train Loss: 0.0037 | Train Acc: 99.91%
+  Val Loss: 0.0065 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0065
+Epoch [18/100]
+  Train Loss: 0.0020 | Train Acc: 99.95%
+  Val Loss: 0.0058 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [19/100]
+  Train Loss: 0.0050 | Train Acc: 99.84%
+  Val Loss: 0.0003 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0003
+Epoch [20/100]
+  Train Loss: 0.0033 | Train Acc: 99.96%
+  Val Loss: 0.0023 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [21/100]
+  Train Loss: 0.0014 | Train Acc: 99.96%
+  Val Loss: 0.0024 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [22/100]
+  Train Loss: 0.0008 | Train Acc: 99.98%
+  Val Loss: 0.0360 | Val Acc: 99.28%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [23/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0100 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [24/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0073 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [25/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0082 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [26/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0051 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [27/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0057 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 27 epochs
+
+Subject S6 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0
+ 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 0 1 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Confusion Matrix:
+[[291   4]
+ [ 84  79]]
+Accuracy: 80.79%
+F1 Score: 0.7881
+Precision: 0.8386
+Recall: 0.8079
+MCC: 0.5856
+
+============================================================
+Test subject: S7, Range: [2252, 2709]
+============================================================
+Train: 5471 samples, Val: 966 samples, Test: 457 samples
+Epoch [1/100]
+  Train Loss: 0.3101 | Train Acc: 88.32%
+  Val Loss: 0.1865 | Val Acc: 94.10%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1865
+Epoch [2/100]
+  Train Loss: 0.0880 | Train Acc: 97.50%
+  Val Loss: 0.1297 | Val Acc: 97.20%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1297
+Epoch [3/100]
+  Train Loss: 0.0614 | Train Acc: 98.41%
+  Val Loss: 0.1422 | Val Acc: 97.20%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [4/100]
+  Train Loss: 0.0491 | Train Acc: 98.76%
+  Val Loss: 0.0562 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0562
+Epoch [5/100]
+  Train Loss: 0.0302 | Train Acc: 99.21%
+  Val Loss: 0.0533 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0533
+Epoch [6/100]
+  Train Loss: 0.0246 | Train Acc: 99.42%
+  Val Loss: 0.0297 | Val Acc: 99.28%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0297
+Epoch [7/100]
+  Train Loss: 0.0439 | Train Acc: 98.99%
+  Val Loss: 0.0473 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [8/100]
+  Train Loss: 0.0298 | Train Acc: 99.31%
+  Val Loss: 0.0234 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0234
+Epoch [9/100]
+  Train Loss: 0.0438 | Train Acc: 99.21%
+  Val Loss: 0.0730 | Val Acc: 98.24%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [10/100]
+  Train Loss: 0.0494 | Train Acc: 99.07%
+  Val Loss: 0.0461 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [11/100]
+  Train Loss: 0.0305 | Train Acc: 99.51%
+  Val Loss: 0.0278 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [12/100]
+  Train Loss: 0.0357 | Train Acc: 99.27%
+  Val Loss: 0.0295 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [13/100]
+  Train Loss: 0.0028 | Train Acc: 99.87%
+  Val Loss: 0.0126 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0126
+Epoch [14/100]
+  Train Loss: 0.0056 | Train Acc: 99.82%
+  Val Loss: 0.0619 | Val Acc: 99.17%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [15/100]
+  Train Loss: 0.0028 | Train Acc: 99.96%
+  Val Loss: 0.0189 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [16/100]
+  Train Loss: 0.0009 | Train Acc: 99.96%
+  Val Loss: 0.0153 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [17/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0116 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [18/100]
+  Train Loss: 0.0044 | Train Acc: 99.91%
+  Val Loss: 0.0243 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [19/100]
+  Train Loss: 0.0059 | Train Acc: 99.89%
+  Val Loss: 0.0492 | Val Acc: 98.86%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [20/100]
+  Train Loss: 0.0080 | Train Acc: 99.80%
+  Val Loss: 0.0012 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0012
+Epoch [21/100]
+  Train Loss: 0.0030 | Train Acc: 99.89%
+  Val Loss: 0.0543 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [22/100]
+  Train Loss: 0.0015 | Train Acc: 99.95%
+  Val Loss: 0.0231 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [23/100]
+  Train Loss: 0.0112 | Train Acc: 99.69%
+  Val Loss: 0.0333 | Val Acc: 99.17%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [24/100]
+  Train Loss: 0.0062 | Train Acc: 99.85%
+  Val Loss: 0.0065 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [25/100]
+  Train Loss: 0.0023 | Train Acc: 99.96%
+  Val Loss: 0.0162 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [26/100]
+  Train Loss: 0.0002 | Train Acc: 99.98%
+  Val Loss: 0.0191 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [27/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0056 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [28/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0036 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 28 epochs
+
+Subject S7 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[  0 297]
+ [  0 160]]
+Accuracy: 35.01%
+F1 Score: 0.1816
+Precision: 0.1226
+Recall: 0.3501
+MCC: 0.0000
+
+============================================================
+Test subject: S8, Range: [2709, 3169]
+============================================================
+Train: 5468 samples, Val: 966 samples, Test: 460 samples
+Epoch [1/100]
+  Train Loss: 0.3713 | Train Acc: 85.63%
+  Val Loss: 0.1228 | Val Acc: 95.76%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1228
+Epoch [2/100]
+  Train Loss: 0.1238 | Train Acc: 95.89%
+  Val Loss: 0.0794 | Val Acc: 97.20%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0794
+Epoch [3/100]
+  Train Loss: 0.0747 | Train Acc: 97.37%
+  Val Loss: 0.1513 | Val Acc: 95.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [4/100]
+  Train Loss: 0.0681 | Train Acc: 98.12%
+  Val Loss: 0.0813 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [5/100]
+  Train Loss: 0.0412 | Train Acc: 98.50%
+  Val Loss: 0.0287 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0287
+Epoch [6/100]
+  Train Loss: 0.0405 | Train Acc: 98.87%
+  Val Loss: 0.0324 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [7/100]
+  Train Loss: 0.0289 | Train Acc: 99.41%
+  Val Loss: 0.0141 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0141
+Epoch [8/100]
+  Train Loss: 0.0289 | Train Acc: 99.25%
+  Val Loss: 0.0468 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [9/100]
+  Train Loss: 0.0274 | Train Acc: 99.34%
+  Val Loss: 0.0358 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [10/100]
+  Train Loss: 0.0108 | Train Acc: 99.76%
+  Val Loss: 0.2110 | Val Acc: 96.58%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [11/100]
+  Train Loss: 0.0248 | Train Acc: 99.40%
+  Val Loss: 0.0989 | Val Acc: 97.72%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [12/100]
+  Train Loss: 0.0084 | Train Acc: 99.80%
+  Val Loss: 0.0282 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [13/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0192 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [14/100]
+  Train Loss: 0.0004 | Train Acc: 99.98%
+  Val Loss: 0.0088 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0088
+Epoch [15/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0039 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0039
+Epoch [16/100]
+  Train Loss: 0.0004 | Train Acc: 99.98%
+  Val Loss: 0.0051 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [17/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0512 | Val Acc: 98.55%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [18/100]
+  Train Loss: 0.0171 | Train Acc: 99.63%
+  Val Loss: 0.0231 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [19/100]
+  Train Loss: 0.0199 | Train Acc: 99.63%
+  Val Loss: 0.0096 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [20/100]
+  Train Loss: 0.0010 | Train Acc: 99.95%
+  Val Loss: 0.0170 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [21/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0196 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [22/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0014 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0014
+Epoch [23/100]
+  Train Loss: 0.0020 | Train Acc: 99.98%
+  Val Loss: 0.0396 | Val Acc: 99.48%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [24/100]
+  Train Loss: 0.0021 | Train Acc: 99.96%
+  Val Loss: 0.0201 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [25/100]
+  Train Loss: 0.0018 | Train Acc: 99.98%
+  Val Loss: 0.0222 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [26/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0177 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 4/8
+Epoch [27/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0198 | Val Acc: 99.69%
+  Learning rate: 0.000125
+  No improvement. Patience: 5/8
+Epoch [28/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0166 | Val Acc: 99.69%
+  Learning rate: 0.000125
+  No improvement. Patience: 6/8
+Epoch [29/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0211 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 7/8
+Epoch [30/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0220 | Val Acc: 99.79%
+  Learning rate: 0.000063
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 30 epochs
+
+Subject S8 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0
+ 0 0 0 0 1 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1
+ 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0 1 0 0 1 1 1 0 1 1
+ 0 0 0 1 1 0 1 0 1 1 1 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[233  59]
+ [  6 162]]
+Accuracy: 85.87%
+F1 Score: 0.8613
+Precision: 0.8866
+Recall: 0.8587
+MCC: 0.7346
+
+============================================================
+Test subject: S9, Range: [3169, 3625]
+============================================================
+Train: 5472 samples, Val: 966 samples, Test: 456 samples
+Epoch [1/100]
+  Train Loss: 0.3720 | Train Acc: 86.04%
+  Val Loss: 0.2029 | Val Acc: 92.96%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.2029
+Epoch [2/100]
+  Train Loss: 0.1086 | Train Acc: 96.45%
+  Val Loss: 0.1117 | Val Acc: 97.31%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1117
+Epoch [3/100]
+  Train Loss: 0.0659 | Train Acc: 98.17%
+  Val Loss: 0.0470 | Val Acc: 98.24%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0470
+Epoch [4/100]
+  Train Loss: 0.0449 | Train Acc: 98.78%
+  Val Loss: 0.0923 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0590 | Train Acc: 98.43%
+  Val Loss: 0.0831 | Val Acc: 98.76%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [6/100]
+  Train Loss: 0.0272 | Train Acc: 99.31%
+  Val Loss: 0.0251 | Val Acc: 99.07%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0251
+Epoch [7/100]
+  Train Loss: 0.0205 | Train Acc: 99.40%
+  Val Loss: 0.0229 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0229
+Epoch [8/100]
+  Train Loss: 0.0265 | Train Acc: 99.51%
+  Val Loss: 0.0284 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [9/100]
+  Train Loss: 0.0250 | Train Acc: 99.38%
+  Val Loss: 0.0162 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0162
+Epoch [10/100]
+  Train Loss: 0.0203 | Train Acc: 99.38%
+  Val Loss: 0.0107 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0107
+Epoch [11/100]
+  Train Loss: 0.0309 | Train Acc: 99.38%
+  Val Loss: 0.0499 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [12/100]
+  Train Loss: 0.0311 | Train Acc: 99.40%
+  Val Loss: 0.0042 | Val Acc: 99.90%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0042
+Epoch [13/100]
+  Train Loss: 0.0096 | Train Acc: 99.67%
+  Val Loss: 0.0024 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0024
+Epoch [14/100]
+  Train Loss: 0.0138 | Train Acc: 99.71%
+  Val Loss: 0.0261 | Val Acc: 99.28%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [15/100]
+  Train Loss: 0.0091 | Train Acc: 99.69%
+  Val Loss: 0.0345 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [16/100]
+  Train Loss: 0.0105 | Train Acc: 99.76%
+  Val Loss: 0.0036 | Val Acc: 99.90%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [17/100]
+  Train Loss: 0.0223 | Train Acc: 99.54%
+  Val Loss: 0.0624 | Val Acc: 98.86%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [18/100]
+  Train Loss: 0.0019 | Train Acc: 99.93%
+  Val Loss: 0.0083 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [19/100]
+  Train Loss: 0.0015 | Train Acc: 99.95%
+  Val Loss: 0.0090 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [20/100]
+  Train Loss: 0.0043 | Train Acc: 99.91%
+  Val Loss: 0.0132 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [21/100]
+  Train Loss: 0.0009 | Train Acc: 99.96%
+  Val Loss: 0.0210 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 21 epochs
+
+Subject S9 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1
+ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 0 1 0 1 0 0 0 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0
+ 0 1 0 0 1 0 0 0 0 1 1 1 1 1 1 1 0 1 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0
+ 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+ 0 1 0 0 0 0 0 0 0 0 0 0]
+Confusion Matrix:
+[[274  21]
+ [ 77  84]]
+Accuracy: 78.51%
+F1 Score: 0.7718
+Precision: 0.7875
+Recall: 0.7851
+MCC: 0.5115
+
+============================================================
+Test subject: S10, Range: [3625, 4101]
+============================================================
+Train: 5455 samples, Val: 963 samples, Test: 476 samples
+Epoch [1/100]
+  Train Loss: 0.3486 | Train Acc: 86.23%
+  Val Loss: 0.1146 | Val Acc: 95.43%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1146
+Epoch [2/100]
+  Train Loss: 0.1172 | Train Acc: 95.88%
+  Val Loss: 0.0507 | Val Acc: 98.34%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0507
+Epoch [3/100]
+  Train Loss: 0.0764 | Train Acc: 97.64%
+  Val Loss: 0.0454 | Val Acc: 98.34%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0454
+Epoch [4/100]
+  Train Loss: 0.0724 | Train Acc: 98.26%
+  Val Loss: 0.0189 | Val Acc: 99.27%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0189
+Epoch [5/100]
+  Train Loss: 0.0195 | Train Acc: 99.30%
+  Val Loss: 0.0149 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0149
+Epoch [6/100]
+  Train Loss: 0.0406 | Train Acc: 99.05%
+  Val Loss: 0.0085 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0085
+Epoch [7/100]
+  Train Loss: 0.0337 | Train Acc: 99.16%
+  Val Loss: 0.0145 | Val Acc: 99.58%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [8/100]
+  Train Loss: 0.0239 | Train Acc: 99.41%
+  Val Loss: 0.3303 | Val Acc: 95.33%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [9/100]
+  Train Loss: 0.0351 | Train Acc: 99.21%
+  Val Loss: 0.1470 | Val Acc: 97.72%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [10/100]
+  Train Loss: 0.0309 | Train Acc: 99.19%
+  Val Loss: 0.0416 | Val Acc: 99.27%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [11/100]
+  Train Loss: 0.0054 | Train Acc: 99.85%
+  Val Loss: 0.0254 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [12/100]
+  Train Loss: 0.0015 | Train Acc: 99.96%
+  Val Loss: 0.0071 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0071
+Epoch [13/100]
+  Train Loss: 0.0021 | Train Acc: 99.91%
+  Val Loss: 0.0005 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0005
+Epoch [14/100]
+  Train Loss: 0.0038 | Train Acc: 99.93%
+  Val Loss: 0.0175 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [15/100]
+  Train Loss: 0.0070 | Train Acc: 99.85%
+  Val Loss: 0.0066 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [16/100]
+  Train Loss: 0.0070 | Train Acc: 99.73%
+  Val Loss: 0.0065 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [17/100]
+  Train Loss: 0.0046 | Train Acc: 99.82%
+  Val Loss: 0.0049 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [18/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0056 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [19/100]
+  Train Loss: 0.0007 | Train Acc: 99.98%
+  Val Loss: 0.0037 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [20/100]
+  Train Loss: 0.0002 | Train Acc: 99.98%
+  Val Loss: 0.0040 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [21/100]
+  Train Loss: 0.0002 | Train Acc: 99.98%
+  Val Loss: 0.0044 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 21 epochs
+
+Subject S10 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[295   0]
+ [ 33 148]]
+Accuracy: 93.07%
+F1 Score: 0.9290
+Precision: 0.9376
+Recall: 0.9307
+MCC: 0.8576
+
+============================================================
+Test subject: S11, Range: [4101, 4566]
+============================================================
+Train: 5464 samples, Val: 965 samples, Test: 465 samples
+Epoch [1/100]
+  Train Loss: 0.3350 | Train Acc: 86.22%
+  Val Loss: 0.1370 | Val Acc: 94.72%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1370
+Epoch [2/100]
+  Train Loss: 0.1363 | Train Acc: 96.03%
+  Val Loss: 0.0664 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0664
+Epoch [3/100]
+  Train Loss: 0.0444 | Train Acc: 98.57%
+  Val Loss: 0.0130 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0130
+Epoch [4/100]
+  Train Loss: 0.0312 | Train Acc: 99.16%
+  Val Loss: 0.1201 | Val Acc: 98.24%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0323 | Train Acc: 99.23%
+  Val Loss: 0.0264 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [6/100]
+  Train Loss: 0.0399 | Train Acc: 98.88%
+  Val Loss: 0.0445 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [7/100]
+  Train Loss: 0.0107 | Train Acc: 99.63%
+  Val Loss: 0.0257 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [8/100]
+  Train Loss: 0.0076 | Train Acc: 99.84%
+  Val Loss: 0.0039 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0039
+Epoch [9/100]
+  Train Loss: 0.0028 | Train Acc: 99.96%
+  Val Loss: 0.0053 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [10/100]
+  Train Loss: 0.0028 | Train Acc: 99.91%
+  Val Loss: 0.0114 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [11/100]
+  Train Loss: 0.0004 | Train Acc: 100.00%
+  Val Loss: 0.0001 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0001
+Epoch [12/100]
+  Train Loss: 0.0097 | Train Acc: 99.84%
+  Val Loss: 0.0196 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [13/100]
+  Train Loss: 0.0093 | Train Acc: 99.78%
+  Val Loss: 0.0009 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [14/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0571 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [15/100]
+  Train Loss: 0.0055 | Train Acc: 99.85%
+  Val Loss: 0.0123 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [16/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0104 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [17/100]
+  Train Loss: 0.0018 | Train Acc: 99.89%
+  Val Loss: 0.0013 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [18/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0179 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [19/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0139 | Val Acc: 99.59%
+  Learning rate: 0.000125
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 19 epochs
+
+Subject S11 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[  1 294]
+ [  0 170]]
+Accuracy: 36.77%
+F1 Score: 0.2003
+Precision: 0.7684
+Recall: 0.3677
+MCC: 0.0352
+
+============================================================
+Test subject: S13, Range: [4566, 5027]
+============================================================
+Train: 5468 samples, Val: 965 samples, Test: 461 samples
+Epoch [1/100]
+  Train Loss: 0.3571 | Train Acc: 85.46%
+  Val Loss: 0.1533 | Val Acc: 95.85%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1533
+Epoch [2/100]
+  Train Loss: 0.1227 | Train Acc: 95.92%
+  Val Loss: 0.1552 | Val Acc: 95.23%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [3/100]
+  Train Loss: 0.0650 | Train Acc: 98.10%
+  Val Loss: 0.0752 | Val Acc: 97.72%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0752
+Epoch [4/100]
+  Train Loss: 0.0619 | Train Acc: 98.41%
+  Val Loss: 0.0824 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0394 | Train Acc: 99.03%
+  Val Loss: 0.0037 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0037
+Epoch [6/100]
+  Train Loss: 0.0256 | Train Acc: 99.34%
+  Val Loss: 0.0363 | Val Acc: 99.27%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [7/100]
+  Train Loss: 0.0314 | Train Acc: 99.25%
+  Val Loss: 0.0408 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [8/100]
+  Train Loss: 0.0247 | Train Acc: 99.38%
+  Val Loss: 0.0186 | Val Acc: 99.27%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [9/100]
+  Train Loss: 0.0299 | Train Acc: 99.32%
+  Val Loss: 0.0676 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [10/100]
+  Train Loss: 0.0039 | Train Acc: 99.84%
+  Val Loss: 0.0029 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [11/100]
+  Train Loss: 0.0018 | Train Acc: 99.96%
+  Val Loss: 0.0221 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [12/100]
+  Train Loss: 0.0003 | Train Acc: 99.98%
+  Val Loss: 0.0024 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0024
+Epoch [13/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0223 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [14/100]
+  Train Loss: 0.0012 | Train Acc: 99.98%
+  Val Loss: 0.0093 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [15/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0019 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [16/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0023 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [17/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0013 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0013
+Epoch [18/100]
+  Train Loss: 0.0252 | Train Acc: 99.63%
+  Val Loss: 0.0504 | Val Acc: 98.96%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [19/100]
+  Train Loss: 0.0087 | Train Acc: 99.84%
+  Val Loss: 0.0006 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [20/100]
+  Train Loss: 0.0052 | Train Acc: 99.95%
+  Val Loss: 0.0051 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [21/100]
+  Train Loss: 0.0033 | Train Acc: 99.96%
+  Val Loss: 0.0097 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [22/100]
+  Train Loss: 0.0129 | Train Acc: 99.67%
+  Val Loss: 0.0283 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [23/100]
+  Train Loss: 0.0065 | Train Acc: 99.76%
+  Val Loss: 0.0151 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [24/100]
+  Train Loss: 0.0011 | Train Acc: 99.95%
+  Val Loss: 0.0234 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [25/100]
+  Train Loss: 0.0006 | Train Acc: 99.98%
+  Val Loss: 0.0004 | Val Acc: 100.00%
+  Learning rate: 0.000250
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 25 epochs
+
+Subject S13 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0
+ 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+ 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0 0 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 1 1 1 0 1 0 1 0 1 0 1 1 0 1 0 0
+ 1 1 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1]
+Confusion Matrix:
+[[261  34]
+ [ 76  90]]
+Accuracy: 76.14%
+F1 Score: 0.7520
+Precision: 0.7570
+Recall: 0.7614
+MCC: 0.4621
+
+============================================================
+Test subject: S14, Range: [5027, 5491]
+============================================================
+Train: 5465 samples, Val: 965 samples, Test: 464 samples
+Epoch [1/100]
+  Train Loss: 0.4315 | Train Acc: 83.99%
+  Val Loss: 0.1897 | Val Acc: 93.16%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1897
+Epoch [2/100]
+  Train Loss: 0.1520 | Train Acc: 94.97%
+  Val Loss: 0.1030 | Val Acc: 96.58%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1030
+Epoch [3/100]
+  Train Loss: 0.0779 | Train Acc: 97.71%
+  Val Loss: 0.0820 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0820
+Epoch [4/100]
+  Train Loss: 0.0544 | Train Acc: 98.39%
+  Val Loss: 0.0311 | Val Acc: 98.86%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0311
+Epoch [5/100]
+  Train Loss: 0.0359 | Train Acc: 99.05%
+  Val Loss: 0.0618 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0225 | Train Acc: 99.32%
+  Val Loss: 0.0262 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0262
+Epoch [7/100]
+  Train Loss: 0.0387 | Train Acc: 99.07%
+  Val Loss: 0.0933 | Val Acc: 97.62%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [8/100]
+  Train Loss: 0.0295 | Train Acc: 99.23%
+  Val Loss: 0.0441 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [9/100]
+  Train Loss: 0.0209 | Train Acc: 99.52%
+  Val Loss: 0.0616 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [10/100]
+  Train Loss: 0.0329 | Train Acc: 99.36%
+  Val Loss: 0.0139 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0139
+Epoch [11/100]
+  Train Loss: 0.0398 | Train Acc: 99.03%
+  Val Loss: 0.0298 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [12/100]
+  Train Loss: 0.0108 | Train Acc: 99.73%
+  Val Loss: 0.0240 | Val Acc: 99.69%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [13/100]
+  Train Loss: 0.0096 | Train Acc: 99.76%
+  Val Loss: 0.0224 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [14/100]
+  Train Loss: 0.0305 | Train Acc: 99.38%
+  Val Loss: 0.0495 | Val Acc: 98.45%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [15/100]
+  Train Loss: 0.0076 | Train Acc: 99.76%
+  Val Loss: 0.0073 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0073
+Epoch [16/100]
+  Train Loss: 0.0013 | Train Acc: 99.96%
+  Val Loss: 0.0126 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [17/100]
+  Train Loss: 0.0032 | Train Acc: 99.85%
+  Val Loss: 0.0197 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [18/100]
+  Train Loss: 0.0028 | Train Acc: 99.93%
+  Val Loss: 0.0095 | Val Acc: 99.69%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [19/100]
+  Train Loss: 0.0021 | Train Acc: 99.98%
+  Val Loss: 0.0076 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [20/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0088 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [21/100]
+  Train Loss: 0.0003 | Train Acc: 99.98%
+  Val Loss: 0.0097 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [22/100]
+  Train Loss: 0.0005 | Train Acc: 99.96%
+  Val Loss: 0.0237 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 7/8
+Epoch [23/100]
+  Train Loss: 0.0003 | Train Acc: 100.00%
+  Val Loss: 0.0056 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0056
+Epoch [24/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0058 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [25/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0056 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [26/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0063 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [27/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0026 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0026
+Epoch [28/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0033 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [29/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0037 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [30/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0036 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [31/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0042 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 4/8
+Epoch [32/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0044 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 5/8
+Epoch [33/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0051 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 6/8
+Epoch [34/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0045 | Val Acc: 99.79%
+  Learning rate: 0.000125
+  No improvement. Patience: 7/8
+Epoch [35/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0028 | Val Acc: 99.79%
+  Learning rate: 0.000063
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 35 epochs
+
+Subject S14 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[293   2]
+ [  1 168]]
+Accuracy: 99.35%
+F1 Score: 0.9935
+Precision: 0.9936
+Recall: 0.9935
+MCC: 0.9861
+
+============================================================
+Test subject: S15, Range: [5491, 5955]
+============================================================
+Train: 5465 samples, Val: 965 samples, Test: 464 samples
+Epoch [1/100]
+  Train Loss: 0.3442 | Train Acc: 85.67%
+  Val Loss: 0.1537 | Val Acc: 94.51%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1537
+Epoch [2/100]
+  Train Loss: 0.1526 | Train Acc: 95.39%
+  Val Loss: 0.1130 | Val Acc: 95.85%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1130
+Epoch [3/100]
+  Train Loss: 0.1043 | Train Acc: 97.40%
+  Val Loss: 0.1824 | Val Acc: 96.37%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [4/100]
+  Train Loss: 0.0562 | Train Acc: 98.61%
+  Val Loss: 0.0498 | Val Acc: 98.45%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0498
+Epoch [5/100]
+  Train Loss: 0.0171 | Train Acc: 99.43%
+  Val Loss: 0.0914 | Val Acc: 98.34%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [6/100]
+  Train Loss: 0.0367 | Train Acc: 99.30%
+  Val Loss: 0.4132 | Val Acc: 95.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [7/100]
+  Train Loss: 0.0501 | Train Acc: 99.12%
+  Val Loss: 0.1098 | Val Acc: 98.34%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [8/100]
+  Train Loss: 0.0261 | Train Acc: 99.30%
+  Val Loss: 0.0992 | Val Acc: 98.34%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [9/100]
+  Train Loss: 0.0089 | Train Acc: 99.74%
+  Val Loss: 0.0111 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0111
+Epoch [10/100]
+  Train Loss: 0.0015 | Train Acc: 99.93%
+  Val Loss: 0.0227 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [11/100]
+  Train Loss: 0.0003 | Train Acc: 100.00%
+  Val Loss: 0.0043 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0043
+Epoch [12/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0093 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [13/100]
+  Train Loss: 0.0007 | Train Acc: 99.96%
+  Val Loss: 0.0068 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [14/100]
+  Train Loss: 0.0033 | Train Acc: 99.91%
+  Val Loss: 0.0316 | Val Acc: 99.38%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [15/100]
+  Train Loss: 0.0048 | Train Acc: 99.91%
+  Val Loss: 0.0231 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [16/100]
+  Train Loss: 0.0008 | Train Acc: 99.98%
+  Val Loss: 0.0112 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [17/100]
+  Train Loss: 0.0001 | Train Acc: 100.00%
+  Val Loss: 0.0022 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0022
+Epoch [18/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0032 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [19/100]
+  Train Loss: 0.0012 | Train Acc: 99.98%
+  Val Loss: 0.0028 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [20/100]
+  Train Loss: 0.0002 | Train Acc: 100.00%
+  Val Loss: 0.0186 | Val Acc: 99.59%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [21/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0015 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 4/8
+Epoch [22/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0041 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 5/8
+Epoch [23/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0025 | Val Acc: 99.79%
+  Learning rate: 0.000250
+  No improvement. Patience: 6/8
+Epoch [24/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0008 | Val Acc: 100.00%
+  Learning rate: 0.000250
+  New best model! Val Loss improved to 0.0008
+Epoch [25/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0011 | Val Acc: 100.00%
+  Learning rate: 0.000250
+  No improvement. Patience: 1/8
+Epoch [26/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0014 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 2/8
+Epoch [27/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0038 | Val Acc: 99.90%
+  Learning rate: 0.000250
+  No improvement. Patience: 3/8
+Epoch [28/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0013 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 4/8
+Epoch [29/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0015 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 5/8
+Epoch [30/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0022 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 6/8
+Epoch [31/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0018 | Val Acc: 99.90%
+  Learning rate: 0.000125
+  No improvement. Patience: 7/8
+Epoch [32/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0020 | Val Acc: 99.90%
+  Learning rate: 0.000063
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 32 epochs
+
+Subject S15 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+ 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1
+ 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[293   0]
+ [ 11 160]]
+Accuracy: 97.63%
+F1 Score: 0.9761
+Precision: 0.9772
+Recall: 0.9763
+MCC: 0.9496
+
+============================================================
+Test subject: S16, Range: [5955, 6418]
+============================================================
+Train: 5466 samples, Val: 965 samples, Test: 463 samples
+Epoch [1/100]
+  Train Loss: 0.3935 | Train Acc: 83.81%
+  Val Loss: 0.1864 | Val Acc: 94.61%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1864
+Epoch [2/100]
+  Train Loss: 0.1580 | Train Acc: 95.17%
+  Val Loss: 0.1381 | Val Acc: 95.65%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.1381
+Epoch [3/100]
+  Train Loss: 0.0689 | Train Acc: 98.02%
+  Val Loss: 0.0597 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0597
+Epoch [4/100]
+  Train Loss: 0.0694 | Train Acc: 98.01%
+  Val Loss: 0.1059 | Val Acc: 97.41%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0401 | Train Acc: 98.92%
+  Val Loss: 0.0139 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0139
+Epoch [6/100]
+  Train Loss: 0.0360 | Train Acc: 99.16%
+  Val Loss: 0.0109 | Val Acc: 99.59%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0109
+Epoch [7/100]
+  Train Loss: 0.0196 | Train Acc: 99.51%
+  Val Loss: 0.0450 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [8/100]
+  Train Loss: 0.0558 | Train Acc: 98.79%
+  Val Loss: 0.1545 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [9/100]
+  Train Loss: 0.0201 | Train Acc: 99.51%
+  Val Loss: 0.0359 | Val Acc: 98.96%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [10/100]
+  Train Loss: 0.0302 | Train Acc: 99.41%
+  Val Loss: 0.0338 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [11/100]
+  Train Loss: 0.0038 | Train Acc: 99.82%
+  Val Loss: 0.0239 | Val Acc: 99.59%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [12/100]
+  Train Loss: 0.0022 | Train Acc: 99.91%
+  Val Loss: 0.0633 | Val Acc: 99.17%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [13/100]
+  Train Loss: 0.0034 | Train Acc: 99.89%
+  Val Loss: 0.0164 | Val Acc: 99.48%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [14/100]
+  Train Loss: 0.0030 | Train Acc: 99.91%
+  Val Loss: 0.0223 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 14 epochs
+
+Subject S16 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[295   0]
+ [  0 168]]
+Accuracy: 100.00%
+F1 Score: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+MCC: 1.0000
+
+============================================================
+Test subject: S17, Range: [6418, 6894]
+============================================================
+Train: 5455 samples, Val: 963 samples, Test: 476 samples
+Epoch [1/100]
+  Train Loss: 0.3818 | Train Acc: 84.56%
+  Val Loss: 0.0889 | Val Acc: 96.78%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0889
+Epoch [2/100]
+  Train Loss: 0.1671 | Train Acc: 94.74%
+  Val Loss: 0.1951 | Val Acc: 93.77%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [3/100]
+  Train Loss: 0.0784 | Train Acc: 97.73%
+  Val Loss: 0.0404 | Val Acc: 98.65%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0404
+Epoch [4/100]
+  Train Loss: 0.0414 | Train Acc: 98.64%
+  Val Loss: 0.0512 | Val Acc: 98.23%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [5/100]
+  Train Loss: 0.0446 | Train Acc: 98.77%
+  Val Loss: 0.0915 | Val Acc: 97.51%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [6/100]
+  Train Loss: 0.0475 | Train Acc: 98.88%
+  Val Loss: 0.0568 | Val Acc: 98.23%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [7/100]
+  Train Loss: 0.0273 | Train Acc: 99.40%
+  Val Loss: 0.0072 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0072
+Epoch [8/100]
+  Train Loss: 0.0246 | Train Acc: 99.38%
+  Val Loss: 0.0357 | Val Acc: 99.17%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [9/100]
+  Train Loss: 0.0514 | Train Acc: 99.43%
+  Val Loss: 0.0209 | Val Acc: 99.58%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [10/100]
+  Train Loss: 0.0375 | Train Acc: 99.21%
+  Val Loss: 0.0878 | Val Acc: 97.82%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [11/100]
+  Train Loss: 0.0311 | Train Acc: 99.34%
+  Val Loss: 0.0036 | Val Acc: 99.90%
+  Learning rate: 0.001000
+  New best model! Val Loss improved to 0.0036
+Epoch [12/100]
+  Train Loss: 0.0375 | Train Acc: 99.19%
+  Val Loss: 0.0323 | Val Acc: 99.48%
+  Learning rate: 0.001000
+  No improvement. Patience: 1/8
+Epoch [13/100]
+  Train Loss: 0.0354 | Train Acc: 99.32%
+  Val Loss: 0.0116 | Val Acc: 99.79%
+  Learning rate: 0.001000
+  No improvement. Patience: 2/8
+Epoch [14/100]
+  Train Loss: 0.0244 | Train Acc: 99.47%
+  Val Loss: 0.0451 | Val Acc: 99.38%
+  Learning rate: 0.001000
+  No improvement. Patience: 3/8
+Epoch [15/100]
+  Train Loss: 0.0132 | Train Acc: 99.67%
+  Val Loss: 0.0458 | Val Acc: 99.58%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [16/100]
+  Train Loss: 0.0016 | Train Acc: 99.93%
+  Val Loss: 0.0008 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  New best model! Val Loss improved to 0.0008
+Epoch [17/100]
+  Train Loss: 0.0005 | Train Acc: 99.98%
+  Val Loss: 0.0009 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 1/8
+Epoch [18/100]
+  Train Loss: 0.0002 | Train Acc: 100.00%
+  Val Loss: 0.0006 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  No improvement. Patience: 2/8
+Epoch [19/100]
+  Train Loss: 0.0036 | Train Acc: 99.87%
+  Val Loss: 0.0040 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 3/8
+Epoch [20/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0004 | Val Acc: 100.00%
+  Learning rate: 0.000500
+  No improvement. Patience: 4/8
+Epoch [21/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0012 | Val Acc: 99.90%
+  Learning rate: 0.000500
+  No improvement. Patience: 5/8
+Epoch [22/100]
+  Train Loss: 0.0000 | Train Acc: 100.00%
+  Val Loss: 0.0108 | Val Acc: 99.79%
+  Learning rate: 0.000500
+  No improvement. Patience: 6/8
+Epoch [23/100]
+  Train Loss: 0.0046 | Train Acc: 99.89%
+  Val Loss: 0.0250 | Val Acc: 99.27%
+  Learning rate: 0.000500
+  No improvement. Patience: 7/8
+Epoch [24/100]
+  Train Loss: 0.0120 | Train Acc: 99.74%
+  Val Loss: 0.0392 | Val Acc: 99.69%
+  Learning rate: 0.000250
+  No improvement. Patience: 8/8
+
+Early stopping triggered after 24 epochs
+
+Subject S17 Results:
+Test Labels: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Test Pred: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Confusion Matrix:
+[[295   0]
+ [  0 181]]
+Accuracy: 100.00%
+F1 Score: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+MCC: 1.0000
+
+============================================================
+INFORMER CONFIGURATION
+============================================================
+
+Model Architecture:
+  Task: classification
+  Sequence Length: 128
+  Input Features: 6
+  Model Dimension: 64
+  Attention Heads: 4
+  Encoder Layers: 2
+  Decoder Layers: 1
+  Feed Forward Dim: 256
+  Dropout: 0.1
+  Activation: gelu
+
+ProbAttention Config:
+  Distillation: True
+  Sparsity Factor: 5
+
+Training Configuration:
+  Learning Rate: 0.001
+  Epochs: 100
+  Batch Size: 16
+  Early Stopping Patience: 8
+============================================================
+
+Metrics of Each Subject:
+============================================================
+S2: Acc=65.00, F1=0.5121, Prec=0.4225, Rec=0.6500, MCC=0.0000
+S3: Acc=66.07, F1=0.5480, Prec=0.7460, Rec=0.6607, MCC=0.1823
+S4: Acc=64.59, F1=0.5069, Prec=0.4172, Rec=0.6459, MCC=0.0000
+S5: Acc=5.87, F1=0.0679, Prec=0.0865, Rec=0.0587, MCC=-0.8768
+S6: Acc=80.79, F1=0.7881, Prec=0.8386, Rec=0.8079, MCC=0.5856
+S7: Acc=35.01, F1=0.1816, Prec=0.1226, Rec=0.3501, MCC=0.0000
+S8: Acc=85.87, F1=0.8613, Prec=0.8866, Rec=0.8587, MCC=0.7346
+S9: Acc=78.51, F1=0.7718, Prec=0.7875, Rec=0.7851, MCC=0.5115
+S10: Acc=93.07, F1=0.9290, Prec=0.9376, Rec=0.9307, MCC=0.8576
+S11: Acc=36.77, F1=0.2003, Prec=0.7684, Rec=0.3677, MCC=0.0352
+S13: Acc=76.14, F1=0.7520, Prec=0.7570, Rec=0.7614, MCC=0.4621
+S14: Acc=99.35, F1=0.9935, Prec=0.9936, Rec=0.9935, MCC=0.9861
+S15: Acc=97.63, F1=0.9761, Prec=0.9772, Rec=0.9763, MCC=0.9496
+S16: Acc=100.00, F1=1.0000, Prec=1.0000, Rec=1.0000, MCC=1.0000
+S17: Acc=100.00, F1=1.0000, Prec=1.0000, Rec=1.0000, MCC=1.0000
+
+Mean Metrics Across All Subjects:
+============================================================
+Accuracy:  72.31%
+F1 Score:  0.6726
+Precision: 0.7161
+Recall:    0.7231
+MCC:       0.4285

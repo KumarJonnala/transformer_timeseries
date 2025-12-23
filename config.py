@@ -25,7 +25,7 @@ class Config:
     EARLY_STOPPING_MIN_DELTA = 0.001
     
     # Model configuration
-    NUM_FEATURES = 5       # 5 for LOMO, total 6 features: ['ACC','Resp','EDA','Temp','ECG','EMG']
+    NUM_FEATURES = 6       # 6 features total: ['ACC','Resp','EDA','Temp','ECG','EMG'], 5 for LOMO studies
     NUM_CLASSES = 2        # 2 labels, 0 for Baseline and 1 for Stress label for 4 seconds window
     EMBEDDING_DIM = 64
     NUM_HEADS = 4          # num_heads = width of attention (how many perspectives are considered in parallel).
