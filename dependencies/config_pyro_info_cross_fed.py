@@ -57,6 +57,9 @@ class Config:
     DROPOUT = 0.1                     # Dropout rate
     ACTIVATION = 'gelu'               # Activation function: 'gelu' or 'relu'
     
+    # FEDformer/Autoformer-specific configurations
+    MOVING_AVG = 25                   # Kernel size for moving average decomposition
+    
     # Informer-specific configurations
     DISTIL = True                     # Whether to use distillation (downsampling) in encoder
     FACTOR = 5                        # Sparsity factor for ProbAttention

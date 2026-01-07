@@ -13,10 +13,10 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import recall_score, precision_score, f1_score, matthews_corrcoef, confusion_matrix
 from sklearn.model_selection import train_test_split
 
-from dependencies.config_pyro_info_cross import Config
+from dependencies.config_pyro_info_cross_fed import Config
 from data.loader import WESADDataset
 from models.Crossformer import Model as Crossformer
-from train_test.train_test_loop_pyra_info import train_model, evaluate_model
+from train_test.train_test_loop_pyra_info_cross_fed import train_model, evaluate_model
 
 
 def main():

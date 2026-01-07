@@ -1,6 +1,6 @@
 """
-Pyraformer Training Pipeline for WESAD Stress Classification
-=============================================================
+FEDformer Training Pipeline for WESAD Stress Classification
+===========================================================
 
 DEPENDENCIES:
 -------------
@@ -13,23 +13,23 @@ Project-Specific Modules:
       - data.loader.WESADDataset: WESAD dataset loader
    
    c) Model Architecture:
-      - models.pyraformer.Model: Pyraformer (Informer-based) model
+      - models.FEDformer.Model: FEDformer (Fourier Enhancing Decomposition Transformer) model
         * Dependencies:
           - layers.Embed.DataEmbedding: Token, positional, and temporal embeddings
           - layers.Transformer_EncDec: Encoder, EncoderLayer, Decoder, DecoderLayer, ConvLayer
-          - layers.SelfAttention_Family: ProbAttention, AttentionLayer
+          - layers.SelfAttention_Family: Attention mechanism
         * Supports classification task for binary stress detection
    
    d) Training & Evaluation:
-      - train_test.train_test_loop_pyraformer.train_model: Training loop with early stopping
-      - train_test.train_test_loop_pyraformer.evaluate_model: Model evaluation on test set
-        * Both functions handle 4-input pyraformer interface: (x_enc, x_mark_enc, x_dec, x_mark_dec)
+      - train_test.train_test_loop_pyra_info.train_model: Training loop with early stopping
+      - train_test.train_test_loop_pyra_info.evaluate_model: Model evaluation on test set
+        * Both functions handle 4-input FEDformer interface: (x_enc, x_mark_enc, x_dec, x_mark_dec)
         * Create dummy time marks for WESAD data (which lacks temporal features)
 
 Layer Dependencies (Required in layers/):
    - layers/Embed.py: DataEmbedding class with token/positional/temporal embeddings
    - layers/Transformer_EncDec.py: Encoder/Decoder architecture components
-   - layers/SelfAttention_Family.py: ProbAttention mechanism (O(L log L) complexity)
+   - layers/SelfAttention_Family.py: Attention mechanism
 
 DATA:
 -----
@@ -50,7 +50,7 @@ from sklearn.model_selection import train_test_split
 # import module files
 from dependencies.config_pyro_info_cross_fed import Config
 from data.loader import WESADDataset
-from models.pyraformer import Model as Pyraformer
+from models.FEDformer import Model as FEDformer
 from train_test.train_test_loop_pyra_info_cross_fed import train_model, evaluate_model
 
 
@@ -126,7 +126,7 @@ def main():
         
         print(f"Train: {len(train_ds)} samples, Val: {len(val_ds)} samples, Test: {len(test_ds)} samples")
         
-        # Initialize Pyraformer model
+        # Initialize FEDformer model
         # Create config object with lowercase attributes
         class ModelConfig:
             pass
@@ -146,13 +146,12 @@ def main():
         configs.d_ff = Config.D_FF
         configs.dropout = Config.DROPOUT
         configs.activation = Config.ACTIVATION
-        configs.distil = Config.DISTIL
-        configs.factor = Config.FACTOR
+        configs.moving_avg = Config.MOVING_AVG
         configs.embed = Config.EMBED
         configs.freq = Config.FREQ
         configs.num_class = Config.NUM_CLASSES
         
-        model = Pyraformer(configs).to(device)
+        model = FEDformer(configs).to(device)
         
         # Training setup
         criterion = torch.nn.CrossEntropyLoss().to(device)
@@ -216,7 +215,7 @@ def main():
 
     # Print final summary
     print("\n" + "="*60)
-    print("PYRAFORMER CONFIGURATION")
+    print("FEDFORMER CONFIGURATION")
     print("="*60)
     print("\nModel Architecture:")
     print(f"  Task: {Config.TASK_NAME}")
@@ -229,10 +228,6 @@ def main():
     print(f"  Feed Forward Dim: {Config.D_FF}")
     print(f"  Dropout: {Config.DROPOUT}")
     print(f"  Activation: {Config.ACTIVATION}")
-    
-    print("\nProbAttention Config:")
-    print(f"  Distillation: {Config.DISTIL}")
-    print(f"  Sparsity Factor: {Config.FACTOR}")
     
     print("\nTraining Configuration:")
     print(f"  Learning Rate: {Config.LEARNING_RATE}")
